@@ -52,7 +52,7 @@ const About = () => {
 							/>
 							<Box
 								top="Current Role"
-								bottom="Site Reliability Engineer"
+								bottom="Reliability Engineer"
 							/>
 							<Box
 								top="Availability"
