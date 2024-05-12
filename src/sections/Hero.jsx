@@ -15,7 +15,7 @@ const Hero = () => {
 				loop
 				muted
 				className="w-full h-full object-cover  left-0 top-0 absolute z-[1] opacity-10"></video>
-			<div className="hero flex md:flex-row flex-col justify-center md:justify-around  items-center   min-h-[100vh] z-[3] absolute md:w-[90vw] w-full md:ml-[5vw] pt-[90px]  md:gap-[20px] gap-[50px] ">
+			<div className="hero flex md:flex-row flex-col justify-center md:justify-around  items-center   min-h-[100vh] z-[3] absolute md:w-[90vw] w-full md:ml-[5vw] pt-[10px]  md:gap-[20px] gap-[50px] ">
 				<div className="left  w-full md:w-[50%] text-white flex flex-col items-center ">
 					<h4 className="md:text-xl text-md lg:text-4xl text-white font-medium">
 						Smart People Writes Codes
