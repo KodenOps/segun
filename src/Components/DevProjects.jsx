@@ -140,12 +140,10 @@ const DesignProjects = () => {
 										View Code
 									</button>
 								</a>
-								<a className="px-[24px] py-[10px] border-red-500 w-[100%] md:w-auto  text-center rounded-[10px] md:text-xl text-lg text-white border-[2px]"
+								<button className="px-[24px] py-[10px] border-red-500 w-[100%] md:w-auto  text-center rounded-[10px] md:text-xl text-lg text-white border-[2px]"
 									onClick={() => setmodalIsOn(!modalIsOn)}>
-									<button >
-										Close Me
-									</button>
-								</a>
+									Close Me
+								</button>
 								
 							</div>
 						</div>

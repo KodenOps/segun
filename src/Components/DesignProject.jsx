@@ -95,11 +95,11 @@ const DesignProjects = () => {
 							</h3>
 
 							{/* the project tools header */}
-							<div className="toplist flex md:justify-between my-[24px] items-center justify-around gap-[10px]">
+							<div className="toplist flex md:justify-between my-[24px] items-center justify-center gap-[5px] flex-wrap ">
 								{popupDetails[0].techs.map((tech) => {
 									return (
 										<p
-											className="text-sm w-[30%] md:text-[12px] flex items-center justify-center min-h-[30px] flex-wrap text-white bg-[#16425B] shadow-xl  inline py-[12px]  rounded-[5px] min-w-[70px] text-center"
+											className="text-[10px] px-[5px] min-w-[20%] md:w-[30%] md:text-[14px] flex items-center justify-center min-h-[30px] flex-wrap text-white bg-[#16425B] shadow-xl   py-[12px]  rounded-[5px]  text-center"
 											key={tech.index}>
 											{tech}
 										</p>
@@ -185,12 +185,10 @@ const DesignProjects = () => {
 										Go to Behance
 									</button>
 								</a>
-								<a className="px-[24px] py-[10px] border-red-500 w-[100%] md:w-auto  text-center rounded-[10px] md:text-xl text-lg text-white border-[2px]"
+								<button className="px-[24px] py-[10px] border-red-500 w-[100%] md:w-auto  text-center rounded-[10px] md:text-xl text-lg text-white border-[2px]"
 									onClick={() => setmodalIsOn(!modalIsOn)}>
-									<button >
-										Close Me
-									</button>
-								</a>
+									Close Me
+								</button>
 								
 							</div>
 						</div>
