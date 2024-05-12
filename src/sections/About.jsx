@@ -1,17 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box } from "../Components/Box";
 import Title from "../Components/Title";
-import heroimg from "../assets/me.png";
+import me from "../assets/me.png";
+import me2 from "../assets/me2.png";
+import me3 from "../assets/me3.png";
 
 const About = () => {
+	// let myImages = [me, me2, me3]
+	const [MeImg, setMeImg] = useState(me)
+	function MeToggle() {
+		setTimeout(() => {
+			if (MeImg === me) {
+				setMeImg(me2)
+			}
+			else if (MeImg === me2) {
+				setMeImg(me3)
+			} else {
+				setMeImg(me)
+			}
+		}, 2000);
+	}
+MeToggle()
 	return (
 		<div
 			className="min-h-[90vh] text-white flex cursor-default justify-center items-center py-[80px] md:flex-row w-screen flex-col-reverse"
 			id="about">
 			<div className="lefts md:w-[45%] w-[100%] ">
 				<img
-					src={heroimg}
-					alt="a young boy smiling"
+					src={MeImg}
+					alt="My images changing every 2 seconds"
 					className="w-[80%] md:w-[70%] lg:w-[80%] ml-[10%] md:ml-[15%] lg:ml-[10%]"
 				/>
 			</div>
