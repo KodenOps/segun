@@ -42,7 +42,7 @@ const Form = () => {
     {/* <label htmlFor="message">Enter Message</label> */}
     <textarea name="user_message" id="message" value={message} cols="50" rows="10" placeholder='Enter Message' className='text-[var(--secondary)] bg-[var(--bg2)] p-[20px]' required onChange={(e)=>setmessage(e.value)}></textarea>
 
-    <button type="submit" className='bg-[var(--secondary)] md:p-[20px] py-[16px] rounded-[10px] mt-[20px] text-[var(--bg)] font-bold hover:bg-slate-300  duration-[1s] w-full' >Send Message</button>
+    <button type="submit" className='bg-[var(--secondary)] md:p-[20px] py-[16px] rounded-[10px] mt-[20px] text-[var(--bg)] font-[500] hover:bg-slate-300  duration-[1s] w-full' >Send Message</button>
    
   </form>
   );
