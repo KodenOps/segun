@@ -8,7 +8,7 @@ const Navigation = () => {
 		setisOn(!isOn);
 	}
 	return (
-		<nav className="flex items-center justify-between border-b-slate-100 shadow-md  lg:px-[100px] md:px-[40px] sm:px-[30px] px-[25px] h-[90px] bg-[var(--bg)] fixed w-screen top-0 z-[100] ">
+		<nav className="flex items-center justify-between border-b-slate-100 shadow-md  lg:px-[100px] md:px-[40px] sm:px-[30px] px-[25px] md:h-[90px] h-[65px] bg-[var(--bg)] fixed w-screen top-0 z-[100] ">
 			<div
 				id="logo"
 				className=" text-xl sm:text-3xl font-[600] z-[3]">
