@@ -99,7 +99,7 @@ const DesignProjects = () => {
 								{popupDetails[0].techs.map((tech) => {
 									return (
 										<p
-											className="text-[10px] px-[5px] min-w-[20%] md:w-[30%] md:text-[14px] flex items-center justify-center min-h-[30px] flex-wrap text-white bg-[#16425B] shadow-xl   py-[12px]  rounded-[5px]  text-center"
+											className="text-sm w-[30%] md:text-[12px] flex items-center justify-center min-h-[30px] flex-wrap text-white bg-[#16425B] shadow-xl   py-[12px]  rounded-[5px] min-w-[70px] text-center"
 											key={tech.index}>
 											{tech}
 										</p>
