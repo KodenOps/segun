@@ -12,7 +12,7 @@ const About = () => {
 				<img
 					src={heroimg}
 					alt="a young boy smiling"
-					className="w-[60%] md:w-[70%] lg:w-[80%] ml-[20%] md:ml-[10%]"
+					className="w-[80%] md:w-[70%] lg:w-[80%] ml-[10%] md:ml-[15%] lg:ml-[10%]"
 				/>
 			</div>
 			{/* end of left side */}
