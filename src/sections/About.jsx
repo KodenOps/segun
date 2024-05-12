@@ -56,7 +56,7 @@ const About = () => {
 							/>
 							<Box
 								top="Availability"
-								bottom="UI Design + Frontend dev gig"
+								bottom="Web & Dev gig"
 							/>
 							{/* <Box
 								top="Twitter"
