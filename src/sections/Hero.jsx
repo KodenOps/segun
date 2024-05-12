@@ -27,7 +27,7 @@ const Hero = () => {
 						<div className="text-[var(--secondary)]">
 							<Typewriter
 								options={{
-									strings: ["Code", "Design", "Engineer"],
+									strings: ["CODE", "DESIGN", "ENGINEER"],
 									autoStart: true,
 									loop: true,
 									cursor: null,
