@@ -61,7 +61,7 @@ const Hero = () => {
 					<a
 						href="#about"
 						className="w-[100%] ">
-						<button className="py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] mx-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:hidden block">
+						<button className="py-3 px-6 bg-[var(--secondary)] rounded-[10px] font-[500] my-[30px] w-[60%] mx-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] md:hidden block">
 							Get Started
 						</button>
 					</a>
