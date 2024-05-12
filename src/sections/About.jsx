@@ -55,7 +55,7 @@ const About = () => {
 								bottom="Site Reliability Engineer"
 							/>
 							<Box
-								top="Freelance Availability"
+								top="Availability"
 								bottom="UI Design + Frontend dev gig"
 							/>
 							{/* <Box
