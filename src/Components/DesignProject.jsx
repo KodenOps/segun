@@ -169,27 +169,29 @@ const DesignProjects = () => {
 							</div>
 
 							{/* the CTAs */}
-							<div className="btns mt-[32px] flex items-center  justify-center gap-[20px] flex-wrap md:flex-row flex-col md:w-auto w-[80%] md:pl-0 pl-[20%]">
-								<a
+							<div className=" btns mt-[32px] flex items-center  justify-center gap-[16px] flex-wrap md:flex-row flex-col md:w-auto ">
+								<a className="px-[24px] py-[10px]  w-[100%] md:w-auto bg-[var(--secondary)] text-center rounded-[10px] md:text-xl text-lg"
 									href={popupDetails[0].link1}
 									target="_blank"
 									rel="noreferrer">
-									<button className="px-[24px] py-[12px] bg-[var(--secondary)] rounded-full text-xl">
+									<button >
 										View Prototype
 									</button>
 								</a>
-								<a
+								<a className="px-[24px] py-[10px] border-[var(--secondary)] w-[100%] md:w-auto  text-center rounded-[10px] md:text-xl text-lg text-white border-[2px]"
 									href={popupDetails[0].link2}
 									rel="noreferrer">
-									<button className="px-[24px] py-[12px] border-[2px] border-[var(--secondary)] rounded-full text-xl text-white">
+									<button className=" ">
 										Go to Behance
 									</button>
 								</a>
-								<button
-									className="px-[24px] py-[12px] border-[2px] border-red-500 w-full md:hidden rounded-full text-xl text-white"
+								<a className="px-[24px] py-[10px] border-red-500 w-[100%] md:w-auto  text-center rounded-[10px] md:text-xl text-lg text-white border-[2px]"
 									onClick={() => setmodalIsOn(!modalIsOn)}>
-									Close Me
-								</button>
+									<button >
+										Close Me
+									</button>
+								</a>
+								
 							</div>
 						</div>
 					</div>
