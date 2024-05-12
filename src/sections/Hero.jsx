@@ -15,12 +15,12 @@ const Hero = () => {
 				loop
 				muted
 				className="w-full h-full object-cover  left-0 top-0 absolute z-[1] opacity-10"></video>
-			<div className="hero flex md:flex-row flex-col justify-center md:justify-around  items-center   min-h-[100vh] z-[3] absolute md:w-[90vw] w-full md:ml-[5vw] pt-[90px]  gap-[30px] ">
+			<div className="hero flex md:flex-row flex-col justify-center md:justify-around  items-center   min-h-[100vh] z-[3] absolute md:w-[90vw] w-full md:ml-[5vw] pt-[90px]  gap-[20px] ">
 				<div className="left  w-full md:w-[50%] text-white flex flex-col items-center ">
-					<h4 className="md:text-xl text-xl lg:text-2xl text-white font-medium">
+					<h4 className="md:text-xl text-md lg:text-4xl text-white font-medium">
 						Smart People Writes Codes
 					</h4>
-					<div className=" md:text-3xl lg:text-5xl text-xl font-bold my-[30px] flex justify-center items-center gap-[10px]">
+					<div className=" md:text-4xl lg:text-6xl text-3xl font-bold md:my-[30px] my-[10px] flex justify-center items-center gap-[10px]">
 						<h2>I</h2>
 
 						{/* the typing effect on the hero page */}
@@ -38,7 +38,7 @@ const Hero = () => {
 						<h2>Solutions</h2>
 					</div>
 
-					<h4 className="text-xl md:text-2xl  lg:text-2xl">
+					<h4 className="text-md md:text-2xl  ">
 						Instead. Want to know more?
 					</h4>
 					<a
