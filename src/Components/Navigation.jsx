@@ -107,9 +107,10 @@ const Navigation = () => {
 						className="w-full">
 						<li>Contact</li>
 					</a>
-					<button className="py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] text-[var(--bg)]">
+					<a href={cv} target="_blank"
+					rel="noreferrer" className="py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] text-[var(--bg)]">
 						Download CV
-					</button>
+					</a>
 				</ul>
 			</div>
 			{/* end of mobile navigation */}
