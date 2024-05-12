@@ -16,7 +16,7 @@ const DesignProjects = () => {
 							setpopupDetails([e]);
 							setmodalIsOn(!modalIsOn);
 						}}>
-						<div className="w-[150px] h-[150px] md:w-[250px] md:h-[250px] shadow-lg rounded-[16px] overflow-hidden relative">
+						<div className="w-[130px] h-[130px] md:w-[250px] md:h-[250px] shadow-lg rounded-[16px] overflow-hidden relative">
 							<img
 								src={e.mainImg}
 								alt=""
@@ -26,7 +26,7 @@ const DesignProjects = () => {
 								{e.category}
 							</p>
 						</div>
-						<p className="text-white  text-center mt-[10px] mb-[24px] text-[14px] hover:text-[var(--secondary)] duration-300 ease">
+						<p className="text-white  text-center mt-[10px] mb-[24px] md:w-full w-[130px] text-[14px] hover:text-[var(--secondary)] duration-300 ease">
 							{e.title}
 						</p>
 					</div>
