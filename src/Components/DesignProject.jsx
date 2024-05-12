@@ -6,7 +6,7 @@ const DesignProjects = () => {
 	const [popupDetails, setpopupDetails] = useState("default");
 	const [modalIsOn, setmodalIsOn] = useState(false);
 	return (
-		<div className="flex justify-center md:items-center gap-[2px] mt-[80px] flex-wrap">
+		<div className="flex justify-center md:items-center gap-[2px] mt-[40px] flex-wrap">
 			{ProjectDesignArray.map((e) => {
 				return (
 					<div
