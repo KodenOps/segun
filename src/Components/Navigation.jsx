@@ -45,7 +45,7 @@ const Navigation = () => {
 				id="button"
 				className="hidden md:flex">
 				<a
-					className="md:py-3 px-6 bg-[var(--secondary)] rounded-full font-[500]"
+					className="md:py-3 px-6 border-[2px] border-[var(--secondary)] rounded-[10px] font-[500] text-white"
 					href={cv}
 					target="_blank"
 					rel="noreferrer">
@@ -76,12 +76,12 @@ const Navigation = () => {
 						? "absolute top-[-150vh] ease duration-300 w-full left-0 h-screen"
 						: "md:hidden block absolute top-0 w-full h-screen  left-0 bg-[var(--bg)] ease duration-300 z-[1]"
 				}>
-				<ul className="flex flex-col items-center text-xl text-white my-[calc(90px*1.3)] ">
+				<ul className="flex flex-col items-center self-center text-xl text-white my-[calc(90px*1.3)] ">
 					<a
 						href="#home"
 						onClick={() => setisOn(!isOn)}
-						className="w-full">
-						<li>Home</li>
+						className="w-full ">
+						<li className="">Home</li>
 					</a>
 					<a
 						href="#about"
@@ -108,7 +108,7 @@ const Navigation = () => {
 						<li>Contact</li>
 					</a>
 					<a href={cv} target="_blank"
-					rel="noreferrer" className="py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] text-[var(--bg)]">
+					rel="noreferrer" className="py-3 px-6 bg-[var(--secondary)] rounded-[10px] my-[24px] w-[90%] text-center font-[500] text-[var(--bg)]">
 						Download CV
 					</a>
 				</ul>

@@ -44,7 +44,7 @@ const Hero = () => {
 					<a
 						href="#about"
 						className="w-[100%] ">
-						<button className="py-3 px-6 bg-[var(--secondary)] rounded-full  my-[30px] w-[60%] mx-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:block hidden">
+						<button className="p-4 px-6 bg-[var(--secondary)] rounded-[10px]  my-[30px] w-[60%] mx-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:block hidden">
 							Get Started
 						</button>
 					</a>
