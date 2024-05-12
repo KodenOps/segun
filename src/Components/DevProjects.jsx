@@ -5,7 +5,7 @@ const DesignProjects = () => {
 	const [popupDetails, setpopupDetails] = useState("default");
 	const [modalIsOn, setmodalIsOn] = useState(false);
 	return (
-		<div className="relative flex justify-center items-center gap-[2px] mt-[80px] flex-wrap">
+		<div className="flex justify-center md:items-center gap-[2px] mt-[80px] flex-wrap">
 			{ProjectDevArray.map((e) => {
 				return (
 					<div
@@ -15,17 +15,16 @@ const DesignProjects = () => {
 							setpopupDetails([e]);
 							setmodalIsOn(!modalIsOn);
 						}}>
-						<div className="w-[150px] h-[150px] md:w-[250px] md:h-[250px] shadow-lg rounded-[16px] overflow-hidden relative   ">
+						<div className="w-[130px] h-[130px] md:w-[250px] md:h-[250px] shadow-lg rounded-[16px] overflow-hidden relative ">
 							<img
 								src={e.mainImg}
 								alt=""
-								className="object-cover w-[150px] h-[150px] md:w-[250px] md:h-[250px]  hover:scale-125  hover:grayscale ease duration-1000"
-							/>
+								className="object-cover w-[150px] h-[150px] md:w-[250px] md:h-[250px] hover:scale-125  hover:grayscale ease duration-1000"/>
 							<p className="absolute top-[10px] right-[10px]  bg-[var(--bg)] text-white px-[10px] py-[5px] rounded-full md:text-sm text-[10px] border-[2px] border-white">
 								{e.category}
 							</p>
 						</div>
-						<p className="text-white  text-center mt-[10px] mb-[24px] text-[14px] hover:text-[var(--secondary)] duration-300 ease">
+						<p className="text-white  text-center mt-[10px] mb-[24px] md:w-full w-[130px] text-[14px] hover:text-[var(--secondary)] duration-300 ease">
 							{e.title}
 						</p>
 					</div>
