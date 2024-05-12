@@ -74,9 +74,10 @@ const Contact = () => {
 					<h4 className="text-md md:text-xl font-bold text-[var(--secondary)] mb-[20px] text-center">
 						Want to send A Mail Instead?
 					</h4>
+					{/* the form section */}
 					<Form />
 				</div>
-				{/* the form section */}
+				
 			</div>
 		</section>
 	);

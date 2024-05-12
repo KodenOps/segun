@@ -39,7 +39,7 @@ MeToggle()
 					large="Who I Am"
 				/>
 				<div className="content w-full">
-					<p className=" px-[32px] md:px-[0] text-justify leading-[38px] my-[10px]">
+					<p className=" px-[24px] md:px-[0] md:text-justify leading-[38px] my-[10px]">
 						Segun is not just a skilled junior developer; he's a multifaceted
 						asset, blending frontend development expertise with a deep
 						understanding of DevOps practices. His proficiency extends beyond
