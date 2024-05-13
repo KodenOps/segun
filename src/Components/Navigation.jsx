@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import cv from "../assets/doc/mycv.pdf";
+import { MdCloudDownload } from "react-icons/md";
+
 const Navigation = () => {
 	const [isOn, setisOn] = useState(true);
 	function handleNav() {
@@ -44,11 +46,13 @@ const Navigation = () => {
 			<div
 				id="button"
 				className="hidden md:flex">
+				
 				<a
-					className="md:py-3 px-6 border-[2px] border-[var(--secondary)] rounded-[10px] font-[500] text-white"
+					className="md:py-3 px-6 border-[2px] border-[var(--secondary)] rounded-[10px] font-[500] text-white flex gap-[16px] justify-center items-center"
 					href={cv}
 					target="_blank"
 					rel="noreferrer">
+					<MdCloudDownload size={25}/>
 					Download CV
 				</a>
 			</div>
@@ -108,7 +112,7 @@ const Navigation = () => {
 						<li>Contact</li>
 					</a>
 					<a href={cv} target="_blank"
-					rel="noreferrer" className="py-3 px-6 bg-[var(--secondary)] rounded-[10px] my-[24px] w-[90%] text-center font-[500] text-[var(--bg)]">
+					rel="noreferrer" className="py-4 px-6 bg-[var(--secondary)] rounded-[10px] my-[24px] w-[90%] text-center font-[500] text-[var(--bg)] flex justify-center items-center gap-[16px]"> <MdCloudDownload size={25}/>
 						Download CV
 					</a>
 				</ul>

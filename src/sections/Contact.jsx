@@ -10,7 +10,7 @@ import {
 const Contact = () => {
 	return (
 		<section
-			className="cursor-default my-[80px] min-h-[100vh] px-[30px] md:px-[0] w-[100vw]"
+			className="cursor-default my-[80px]  px-[30px] md:px-[0] w-[100vw]"
 			id="contact"
 			data-aos="slide-up">
 			<Title small="CONTACTS" large="How To Reach Me" />

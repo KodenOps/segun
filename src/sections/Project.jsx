@@ -11,7 +11,7 @@ const Project = () => {
 	const [devActive, setdevActive] = useState(true);
 	return (
 		<section
-			className="cursor-default min-h-screen  md:px-[80px] px-[20px] mt-[80px]"
+			className="cursor-default   md:px-[80px] px-[20px] mt-[80px]"
 			id="project">
 			<Title small="PROJECTS" large="What I've done" />
 			<p className="px-[10px] md:px-[0] text-center leading-[38px] my-[10px] mb-[30px] text-slate-100">
