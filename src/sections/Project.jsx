@@ -22,7 +22,7 @@ const Project = () => {
 			{/* the swith button for dev and design */}
 			{devActive ? (
 				// if dev is active
-				<div className="switchbtn flex justify-center  items-center gap-[20px]">s
+				<div className="switchbtn flex justify-center  items-center gap-[20px]">
 					<button
 						
 						className="design w-[150px] bg-[#16425B] px-[24px] py-[12px] rounded-full gap-4 text-white shadow-sm flex justify-center items-center"
