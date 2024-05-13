@@ -3,6 +3,10 @@ import { useState } from "react";
 import DesignProjects from "../Components/DesignProject";
 import DevProjects from "../Components/DevProjects";
 import Title from "../Components/Title";
+import { FiFigma } from "react-icons/fi";
+import { FaCode } from "react-icons/fa";
+
+
 const Project = () => {
 	const [devActive, setdevActive] = useState(true);
 	return (
@@ -19,25 +23,36 @@ const Project = () => {
 			{devActive ? (
 				// if dev is active
 				<div className="switchbtn flex justify-center  items-center gap-[20px]">
-					<button className="dev w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full text-white bg-[#16425B]">
+					{/* <button className="dev w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full text-white bg-[#16425B]">
 						Dev
+					</button> */}
+					<button
+						
+						className="design w-[150px] bg-[#16425B] px-[24px] py-[12px] rounded-full gap-4 text-white shadow-sm flex justify-center items-center"
+						onClick={() => setdevActive(!devActive)}>
+						<FaCode /> Dev
 					</button>
 					<button
-						className="design w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full text-white shadow-sm"
+						
+						className="design w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full gap-4 text-white shadow-sm flex justify-center items-center"
 						onClick={() => setdevActive(!devActive)}>
-						Design
+						<FiFigma /> Design
 					</button>
 				</div>
 			) : (
 				// if design is active
 				<div className="switchbtn flex justify-center items-center gap-[20px]">
 					<button
-						className="dev w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full text-white "
+						
+						className="design w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full gap-4 text-white shadow-sm flex justify-center items-center"
 						onClick={() => setdevActive(!devActive)}>
-						Dev
+						<FaCode /> Dev
 					</button>
-					<button className="design w-[150px]  px-[24px] py-[12px] rounded-full text-white shadow-sm bg-[#16425B]">
-						Design
+					<button
+						
+						className="design w-[150px]  bg-[#16425B] px-[24px] py-[12px] rounded-full gap-4 text-white shadow-sm flex justify-center items-center"
+						onClick={() => setdevActive(!devActive)}>
+						<FiFigma /> Design
 					</button>
 				</div>
 			)}
