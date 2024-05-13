@@ -38,8 +38,11 @@ const Hero = () => {
 						<h2>Solutions</h2>
 					</div>
 
-					<h4 className="text-md md:text-2xl  ">
-						Instead. Want to know more?
+					<h4 className="md:text-xl text-md lg:text-4xl text-white font-medium">
+						Instead
+					</h4>
+					<h4 className="text-md md:text-2xl mt-[32px]  ">
+						Want to know more?
 					</h4>
 					<a
 						href="#about"
