@@ -13,7 +13,7 @@ const Skills = () => {
       <div id="topskills"  className='flex flex-wrap justify-center items-center gap-8 mt-[40px] w-[80%] ml-[10%] '>
         {skills.map((e)=>{
             return(
-                <Box2 text={e.name} key={e.id} icon={e.img}/>
+              <Box2 text={e.name} key={e.id} Icons={ e.icon} />
             )
         })}
        </div>

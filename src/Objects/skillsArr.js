@@ -1,75 +1,72 @@
-// import figma from "../assets/figma.png";
-import css from "../assets/css.png";
-// import html  from '../assets/html.png'
-import js from "../assets/js.png";
-// import net from "../assets/net.png";
-// import ps from "../assets/ps.png";
-import react from "../assets/react.png";
-// import sql from "../assets/sql.png";
-import tailwind from "../assets/tailwind.png";
-import wp from "../assets/wp.png";
-import { DiHtml5 } from "react-icons/di";
+
+import { DiHtml5, DiCss3, DiReact, DiLinux   } from "react-icons/di";
+import { SiJavascript, SiTailwindcss, SiRedux, SiDocker , SiGnubash, SiVagrant    } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import { FiFigma  } from "react-icons/fi";
+
+
+
 let skills = [
 	{
 		id: 1,
 		name: "HTML",
-		img: DiHtml5,
+		icon: DiHtml5,
 	},
 	{
 		id: 2,
 		name: "CSS",
-		img: css,
+		icon: DiCss3 ,
 	},
 	{
 		id: 3,
 		name: "Javascript",
-		img: js,
+		icon: SiJavascript ,
 	},
 	{
 		id: 4,
 		name: "ReactJS",
-		img: react,
+		icon: DiReact ,
 	},
 	{
 		id: 5,
 		name: "Redux",
-		img: react,
+		icon: SiRedux,
 	},
 	{
 		id: 6,
 		name: "Tailwind",
-		img: tailwind,
+		icon: SiTailwindcss ,
 	},
 
 	{
 		id: 7,
 		name: "Git & GitHub",
-		img: wp,
+		icon: FaGitAlt,
 	},
 	{
 		id: 8,
 		name: "Docker",
-		img: "",
+		icon: SiDocker ,
 	},
 	{
 		id: 9,
 		name: "Bash Scripting",
-		img: wp,
+		icon: SiGnubash ,
 	},
 	{
 		id: 10,
 		name: "Linux",
-		img: wp,
+		icon: DiLinux ,
 	},
 	{
 		id: 11,
 		name: "Vagrant",
-		// img: figma,
+		icon: SiVagrant ,
 	},
 	{
 		id: 12,
 		name: "Figma",
-		// img: figma,
+		icon: FiFigma ,
 	},
 ];
 
