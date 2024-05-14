@@ -58,6 +58,15 @@ html {
 	#mobile-links button {
 		@apply mt-8  shadow;
 	}
+	.iconFlex {
+		@apply flex items-center justify-center flex-col font-mono ;
+	}
+	.colorBox {
+		@apply w-[150px] h-[50px] flex items-center justify-center text-black ;
+	}
+	.researchbox {
+		@apply md:w-[24%] w-[100%] lg:w-[19%] md:h-[250px] h-[200px] flex items-center justify-center bg-[#29394c] rounded-md font-mono;
+	}
 	input,
 	textarea {
 		@apply text-[var(--secondary)] outline-none  p-[20px] bg-[var(--bg2)] shadow-lg mb-[40px] caret-[var(--secondary)] rounded-[10px]  focus:border-[var(--secondary)] focus:border-[1px] w-full  md:mx-0;
