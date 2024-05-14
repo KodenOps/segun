@@ -40,6 +40,9 @@ const Navigation = () => {
 					<li>
 						<a href="#contact">Contact</a>
 					</li>
+					<li>
+						<a href={`/designProject`}>Check</a>
+					</li>
 				</ul>
 			</div>
 			{/* end of web links */}
@@ -104,6 +107,12 @@ const Navigation = () => {
 						onClick={() => setisOn(!isOn)}
 						className="w-full">
 						<li>Projects</li>
+					</a>
+					<a
+						href={`/designProject`}
+						onClick={() => setisOn(!isOn)}
+						className="w-full">
+						<li>Check</li>
 					</a>
 					<a
 						href="#contact"

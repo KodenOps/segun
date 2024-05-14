@@ -1,39 +1,4 @@
-import React from "react";
-import { useState } from "react";
-import { ProjectDevArray } from "../Objects/projectArr.js";
-// import DesignProject from "../sections/DesignProject.jsx";
-const DesignProjects = () => {
-	const [popupDetails, setpopupDetails] = useState("default");
-	const [modalIsOn, setmodalIsOn] = useState(false);
-	return (
-		<div className="flex justify-center md:items-center gap-[2px] mt-[40px] flex-wrap">
-			{ProjectDevArray.map((e) => {
-				return (
-					<div
-						className=" mx-[10px] cursor-pointer"
-						key={e.id}
-						onClick={() => {
-							setpopupDetails([e]);
-							setmodalIsOn(!modalIsOn);
-						}}>
-						<div className="w-[130px] h-[130px] md:w-[250px] md:h-[250px] shadow-lg rounded-[16px] overflow-hidden relative ">
-							<img
-								src={e.mainImg}
-								alt=""
-								className="object-cover w-[150px] h-[150px] md:w-[250px] md:h-[250px] hover:scale-125  hover:grayscale ease duration-1000"/>
-							<p className="absolute top-[10px] right-[10px]  bg-[var(--bg)] text-white px-[10px] py-[5px] rounded-full md:text-sm text-[10px] border-[2px] border-white">
-								{e.category}
-							</p>
-						</div>
-						<p className="text-white  text-center mt-[10px] mb-[24px] md:w-full w-[130px] text-[14px] hover:text-[var(--secondary)] duration-300 ease">
-							{e.title}
-						</p>
-					</div>
-				);
-			})}
-
-			{/* paste project here */}
-			{modalIsOn ? (
+{modalIsOn ? (
 				//if true
 				<div className="w-[100vw]  h-[100vh] fixed top-[0] left-[0] z-[100] bg-[var(--bg2)] text-black flex  overflow-y-scroll overflow-x-hidden pt-[32px] pb-[100px] justify-center items-center">
 					{/* the modal content */}
@@ -155,8 +120,3 @@ const DesignProjects = () => {
 				//if false
 				""
 			)}
-		</div>
-	);
-};
-
-export default DesignProjects;
