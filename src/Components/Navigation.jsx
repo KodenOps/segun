@@ -26,19 +26,19 @@ const Navigation = () => {
 					id="web"
 					className="hidden md:flex items-center justify-around text-white ">
 					<li>
-						<a href="#home">Home</a>
+						<a href={`/#home`}>Home</a>
 					</li>
 					<li>
-						<a href="#about">About</a>
+						<a href={`/#about`}>about</a>
 					</li>
 					<li>
-						<a href="#skills">Skills</a>
+						<a href={`/#skills`}>Skills</a>
 					</li>
 					<li>
-						<a href="#project">Projects</a>
+						<a href={`/#project`}>Projects</a>
 					</li>
 					<li>
-						<a href="#contact">Contact</a>
+						<a href={`/#contact`}>Contact</a>
 					</li>
 					<li>
 						<a href={`/designProject`}>Check</a>

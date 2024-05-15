@@ -59,13 +59,13 @@ html {
 		@apply mt-8  shadow;
 	}
 	.iconFlex {
-		@apply flex items-center justify-center flex-col font-mono ;
+		@apply flex items-center justify-center flex-col font-mono gap-4 ;
 	}
 	.colorBox {
 		@apply w-[150px] h-[50px] flex items-center justify-center text-black ;
 	}
 	.researchbox {
-		@apply md:w-[24%] w-[100%] lg:w-[19%] md:h-[250px] h-[200px] flex items-center justify-center bg-[#29394c] rounded-md font-mono;
+		@apply  sm:w-[49%] lg:w-[24%] w-full md:h-[300px] scale-100 h-[300px] flex items-center justify-center  rounded-md font-mono;
 	}
 	input,
 	textarea {

@@ -9,7 +9,6 @@ import Project from "./sections/Project";
 import { ToastContainer } from "react-toastify";
 import Footer from "./sections/Footer";
 import "react-toastify/dist/ReactToastify.css";
-
 const App = () => {
 	
 	return (
@@ -17,7 +16,7 @@ const App = () => {
 			<Hero />
 			<About />
 			<Skills />
-			<Project />
+			<Project  />
 			<Contact />
 			<Footer />
 			<ToastContainer />
