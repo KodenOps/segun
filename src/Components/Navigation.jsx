@@ -4,7 +4,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import cv from "../assets/doc/mycv.pdf";
 import { MdCloudDownload } from "react-icons/md";
 
-const Navigation = () => {
+const Navigation = ({modalIsOn, setmodalIsOn }) => {
 	const [isOn, setisOn] = useState(true);
 	function handleNav() {
 		setisOn(!isOn);
@@ -13,9 +13,11 @@ const Navigation = () => {
 		<nav className="flex items-center justify-between border-b-slate-100 shadow-md  lg:px-[100px] md:px-[40px] sm:px-[30px] px-[25px] md:h-[90px] h-[65px] bg-[var(--bg)] fixed w-screen top-0 z-[100] ">
 			<div
 				id="logo"
-				className=" text-xl sm:text-3xl font-[600] z-[3]">
+				className=" text-xl sm:text-3xl font-[600] z-[3]" onClick={() => {
+					modalIsOn === true ? setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)
+				}}>
 				<a href="#home">
-					<h3 className="text-white">
+					<h3 className="text-white" >
 						SE<span className="text-[var(--secondary)]">GUN</span>
 					</h3>
 				</a>
@@ -25,23 +27,20 @@ const Navigation = () => {
 				<ul
 					id="web"
 					className="hidden md:flex items-center justify-around text-white ">
-					<li>
+					<li onClick={() =>  modalIsOn === true ? setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)}>
 						<a href={`/#home`}>Home</a>
 					</li>
-					<li>
-						<a href={`/#about`}>about</a>
+					<li onClick={() =>  modalIsOn === true ? setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)}>
+						<a href={`/#about`}>About</a>
 					</li>
-					<li>
+					<li onClick={() =>  modalIsOn === true ? setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)}>
 						<a href={`/#skills`}>Skills</a>
 					</li>
-					<li>
+					<li onClick={() =>  modalIsOn === true ? setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)}>
 						<a href={`/#project`}>Projects</a>
 					</li>
-					<li>
+					<li onClick={() =>  modalIsOn === true ? setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)}>
 						<a href={`/#contact`}>Contact</a>
-					</li>
-					<li>
-						<a href={`/designProject`}>Check</a>
 					</li>
 				</ul>
 			</div>
@@ -86,37 +85,47 @@ const Navigation = () => {
 				<ul className="flex flex-col items-center self-center text-xl text-white my-[calc(90px*1.3)] ">
 					<a
 						href="#home"
-						onClick={() => setisOn(!isOn)}
+						onClick={() => {
+							setisOn(!isOn)
+						modalIsOn === true ?	setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)
+						}}
 						className="w-full ">
 						<li className="">Home</li>
 					</a>
 					<a
 						href="#about"
-						onClick={() => setisOn(!isOn)}
+						onClick={() => {
+							setisOn(!isOn)
+						modalIsOn === true ?	setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)
+						}}
 						className="w-full">
 						<li>About</li>
 					</a>
 					<a
 						href="#skills"
-						onClick={() => setisOn(!isOn)}
+						onClick={() => {
+							setisOn(!isOn)
+						modalIsOn === true ?	setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)
+						}}
 						className="w-full">
 						<li>Skills</li>
 					</a>
 					<a
 						href="#project"
-						onClick={() => setisOn(!isOn)}
+						onClick={() => {
+							setisOn(!isOn)
+						modalIsOn === true ?	setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)
+						}}
 						className="w-full">
 						<li>Projects</li>
 					</a>
-					<a
-						href={`/designProject`}
-						onClick={() => setisOn(!isOn)}
-						className="w-full">
-						<li>Check</li>
-					</a>
+				
 					<a
 						href="#contact"
-						onClick={() => setisOn(!isOn)}
+						onClick={() => {
+							setisOn(!isOn)
+						modalIsOn === true ?	setmodalIsOn(!modalIsOn) : setmodalIsOn(modalIsOn)
+						}}
 						className="w-full">
 						<li>Contact</li>
 					</a>

@@ -65,7 +65,7 @@ html {
 		@apply w-[150px] h-[50px] flex items-center justify-center text-black ;
 	}
 	.researchbox {
-		@apply  sm:w-[49%] lg:w-[24%] w-full md:h-[300px] scale-100 h-[300px] flex items-center justify-center  rounded-md font-mono;
+		@apply  sm:w-[49%] lg:w-[24%] w-full  md:h-[300px] scale-100 h-[300px] flex items-center justify-center  rounded-md font-mono;
 	}
 	input,
 	textarea {

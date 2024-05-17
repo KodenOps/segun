@@ -4,14 +4,14 @@ import { useState } from "react";
 import random from "../assets/random.png";
 import NewDesignProject from "../sections/NewDesignProject.jsx";
 import {DesignProjectData} from "../Objects/DesignProjectData"
-const DesignProjects = () => {
+const DesignProjects = ({modalIsOn, setmodalIsOn}) => {
 	const [popupDetails, setpopupDetails] = useState("default");
-	const [modalIsOn, setmodalIsOn] = useState(false);
+	
 	return (
 		<div className="flex justify-center md:items-center gap-[2px] mt-[40px] flex-wrap">
 			{modalIsOn ? (
 				//if true
-				<NewDesignProject popupDetails={popupDetails} setpopupDetails={ setpopupDetails} modalIsOn={modalIsOn} setmodalIsOn={setmodalIsOn} />
+				<NewDesignProject popupDetails={popupDetails}  modalIsOn={modalIsOn} setmodalIsOn={setmodalIsOn} />
 			) : (
 				//if false
 				""

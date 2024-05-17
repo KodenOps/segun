@@ -7,7 +7,7 @@ import { FiFigma } from "react-icons/fi";
 import { FaCode } from "react-icons/fa";
 
 
-const Project = () => {
+const Project = ({modalIsOn, setmodalIsOn}) => {
 	const [devActive, setdevActive] = useState(true);
 	return (
 		<section
@@ -53,7 +53,7 @@ const Project = () => {
 					</button>
 				</div>
 			)}
-			{devActive ? <DevProjects /> : <DesignProjects />}
+			{devActive ? <DevProjects /> : <DesignProjects modalIsOn={modalIsOn} setmodalIsOn={setmodalIsOn }  />}
 		</section>
 	);
 };

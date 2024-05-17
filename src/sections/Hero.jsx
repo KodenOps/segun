@@ -3,12 +3,12 @@ import Navigation from "../Components/Navigation";
 import vid from "../assets/vid.mp4";
 import heroimg from "../assets/heroimg.png";
 import Typewriter from "typewriter-effect";
-const Hero = () => {
+const Hero = ({modalIsOn, setmodalIsOn }) => {
 	return (
 		<div
 			className="min-h-screen w-screen relative cursor-default"
 			id="home">
-			<Navigation />
+			<Navigation modalIsOn={modalIsOn} setmodalIsOn={setmodalIsOn } />
 			<video
 				src={vid}
 				autoPlay
