@@ -69,7 +69,7 @@ export const ProjectDevArray = [
 		details:
 			"This is from the design full project that focuses on ensuring easy and smooth way for users to find accommodation online. The project started with figuring out the pattern of online house hunting in Nigeria, Especially in Lagos. The hustle of searching for numerous apartment with beautiful images online but later discovered that the house is not what they expected it to be. Also, popular house hunting platforms in Lagos here always leave the communication with the agent to be outside the platform, this makes most house hunters be susceptible to extortion as the condition stated on their platform changes when they chat them up or even give them a call. This also makes reporting and monitoring of the agent's integrity almost impossible for these platforms. How about scammers that pose as agent on these platforms. Most of these users are not verified. This project was developed with ReactJs and the styling was done using pure CSS.",
 		process: [
-			"This project was developed with ReactJs and the styling was done using pure CSS.",
+			"This project was developed with ReactJs and the styling was done using pure CSS. The website was integrated with the ability to send emails directly and also receive an automated reply. This was used in the contact us form. Another thing that was integrated into this project is the Toast notification that notify users that their mail has been sent successfully.",
 			"The website was integrated with the ability to send emails directly and also receive an automated reply. This was used in the contact us form.",
 			"Another thing that was integrated into this project is the Toast notification that notify users that their mail has been sent successfully.",
 		],
@@ -95,7 +95,7 @@ export const ProjectDevArray = [
 		otherImgs: [sdiva1],
 		category: "Dev",
 		details:
-			"SuperDiva is a fashion e-commerce store for women of varios age and sizes. This is my first attempt towards creating multiple pages using ReactJS. To be honest, i focuses on different concept such as state management with Redux, API integration using Flutterwave payment gateway, etc. You can do the following on the website:",
+			"SuperDiva is a fashion e-commerce store for women of varios age and sizes. This is my first attempt towards creating multiple pages using ReactJS. To be honest, i focuses on different concept such as state management with Redux, API integration using Flutterwave payment gateway, etc. This project handles states using Redux Toolkit. This project is my major first project using redux. Even the entire project is for me to familiarize with Redux and state management. A V.2 will be added that prioritize aesthetic with the impeccable state management. It also integrate Toast alert to notify users for an item already in the cart. On the app, you have the Ability to Preview products before adding to cart",
 		process: [
 			"This project handles states using Redux Toolkit. This project is my major first project using redux. Even the entire project is for me to familiarize with Redux and state management. A V.2 will be added that prioritize aesthetic with the impeccable state management",
 			"This project also integrate Toast alert to notify users for an item already in the cart. On the app, you have the:",
@@ -142,7 +142,7 @@ export const ProjectDevArray = [
 		otherImgs: [],
 		category: "Dev",
 		details:
-			"This is my personal portfolio. Well, that's what you are checking now. The idea behind the website is to be simple, yet stylish and elegant.  For the development, I used ReactJs (Obviously) and style it using Tailwind CSS. There are some small-quantity of some secret ingredient used in this project. Some of them which include: ",
+			"This is my personal portfolio. Well, that's what you are checking now. The idea behind the website is to be simple, yet stylish and elegant.  For the development, I used ReactJs (Obviously) and style it using Tailwind CSS. There are some small-quantity of some secret ingredient used in this project. Some of them which include: sending email through the CONTACT ME section of the website",
 		bullet: [
 			"AOS library - Used to add float-in animation to the components",
 			"EmailJs - Used in handling the CONTACT ME section of the website",
@@ -168,7 +168,7 @@ export const ProjectDevArray = [
 		otherImgs: [queez],
 		category: "Dev",
 		details:
-			"This is a short ReactJs project just to flex my React skills. The project manages the state using simple If statement with UseState. Nothing much to see here. Just a normal quiz app with some diss remark after each session.",
+			"This is a short ReactJs project just to flex my React skills. The project manages the state using simple If statement with UseState. Nothing much to see here. Just a normal quiz app with some diss remark after each session. React Router - Used in handling the different pages. State management managed by React useState hook - No serious state change that could have require Redux or full state management tool. The website was built using ReactJs and styled using Tailwind CSS coupled with little pure CSS",
 		bullet: [
 			"React Router - Used in handling the different pages",
 			"State management managed by React useState hook - No serious state change that could have require Redux or full state management tool",

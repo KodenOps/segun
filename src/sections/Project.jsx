@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import DesignProjects from "../Components/DesignProject";
-import DevProjects from "../Components/DevProjects";
+import DevProject from "../Components/DevProject";
 import Title from "../Components/Title";
 import { FiFigma } from "react-icons/fi";
 import { FaCode } from "react-icons/fa";
@@ -53,7 +53,7 @@ const Project = ({modalIsOn, setmodalIsOn}) => {
 					</button>
 				</div>
 			)}
-			{devActive ? <DevProjects /> : <DesignProjects modalIsOn={modalIsOn} setmodalIsOn={setmodalIsOn }  />}
+			{devActive ? <DevProject modalIsOn={modalIsOn} setmodalIsOn={setmodalIsOn }/> : <DesignProjects modalIsOn={modalIsOn} setmodalIsOn={setmodalIsOn }  />}
 		</section>
 	);
 };

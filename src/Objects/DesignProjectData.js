@@ -123,7 +123,7 @@ export const DesignProjectData = [
         solutionTitle: "Solution",
         toolsTitle: "Tools",
         colorPalleteTitle: "Colour Pallete",
-        ResearchAnalysisTitle: "Research Analysis",
+        ResearchAnalysisTitle: "Pre-Design Deliverables",
         snapshotTitle: "Product Snapshots",
         // The sections Contents
         coverImg: luta_cover,
@@ -258,7 +258,7 @@ export const DesignProjectData = [
         solutionTitle: "Solution",
         toolsTitle: "Tools",
         colorPalleteTitle: "Colour Pallete",
-        ResearchAnalysisTitle: "No Research - This is just a UI Design Project",
+        // ResearchAnalysisTitle: "No Research - This is just a UI Design Project",
         snapshotTitle: "Product Snapshots",
         // The sections Contents
         coverImg: coverss,
@@ -289,7 +289,6 @@ export const DesignProjectData = [
             },
          ],
         colorPallete: ["#090F22", "#F61067", "#2F80ED", "#27AE60", "#E2B93B", "#EB5757"],
-        researchImgs: [],
         snapshotImg: [  onboard, stated, pass, load, success, dash, customize],
     }, //End of a project
     // END OF BAKEET PROJECT
@@ -301,10 +300,10 @@ export const DesignProjectData = [
         title: "Jumia App - Modification",
         category: "Re-imagined",
         // The Static Title 
-        problemTitle: "The Problem",
+        problemTitle: "Short Introduction",
         gettingStartedTitle: "Getting Started",
         snoopAroundTitle: "Snooping Around",
-        solutionTitle: "Solution",
+        solutionTitle: "New Features",
         toolsTitle: "Tools",
         colorPalleteTitle: "Colour Pallete",
         ResearchAnalysisTitle: "Research Analysis",
@@ -367,19 +366,17 @@ export const DesignProjectData = [
         title: "Tinder - Modification",
         category: "Re-imagined",
         // The Static Title 
-        problemTitle: "The Problem",
-        gettingStartedTitle: "Getting Started",
-        snoopAroundTitle: "Snooping Around",
-        solutionTitle: "Solution",
+        problemTitle: "Short Introduction",
+        // gettingStartedTitle: "Getting Started",
+        // snoopAroundTitle: "Snooping Around",
+        solutionTitle: "New Features",
         toolsTitle: "Tools",
         colorPalleteTitle: "Colour Pallete",
-        ResearchAnalysisTitle: "Research Analysis",
+        // ResearchAnalysisTitle: "Research Analysis",
         snapshotTitle: "Product Snapshots",
         // The sections Contents
         coverImg: coverss,
-        problemText: "The dating market is a jungle if you will agree with me. It's even worse when you involve social media or dating sites to foster your search. There are lots of issues such as long distance, mismatch of identity (more like what I ordered for vs what I get situation), Catfishing, time wasters, Hookup girls posing as a wife materials, etc. These and many more are what those who are genuinely searching for match online faces. Tinder is not excluded from this shit. In fact, it happens to be a major stakeholder of these issues. One of the major concern on this platform is time-waster, and catfishes. It will be great if users can checkmate this fishes before spending much time interacting with them. This project is just a short one to showcase the solution I'm suggesting to combat some of the issues I noticed on the Tinder app ",
-        gettingStartedTexts: "To start with this project, I have to sign-up on the platform as a regular user. Let say I had to go and search actively for love. One issue I first noticed is the number of fake accounts posing as women. Another thing I noticed is the flow of things on the app especially when searchiing for genuine life partner. And the flow include: Get Matched, chat briefly and plan meetups, meet up and realize he/she have some defects that poses red flag to you.",
-        snoopAroundTexts: "I did quite a lot of snooping which involve signing up for the platform, setting up my profile and swipped the hell out the cards. Now, here is the catch. I met quite a handful of people there. Some who are my padi now. But I noticed this drag with communication with these people which I believe would have been great if rather than text, A video call first would have ease the ground and also set as an examination for the new match",
+        problemText: "The dating market is a jungle if you will agree with me. It's even worse when you involve social media or dating sites to foster your search. There are lots of issues such as long distance, mismatch of identity (more like what I ordered for vs what I get situation), Catfishing, time wasters, Hookup girls posing as a wife materials, etc. These and many more are what those who are genuinely searching for match online faces. Tinder is not excluded from this shit. In fact, it happens to be a major stakeholder of these issues. One of the major concern on this platform is time-waster, and catfishes. It will be great if users can checkmate this fishes before spending much time interacting with them. This project is just a short one to showcase the solution I'm suggesting to combat some of the issues I noticed on the Tinder app. To start with this project, I have to sign-up on the platform as a regular user. Let say I had to go and search actively for love. One issue I first noticed is the number of fake accounts posing as women. Another thing I noticed is the flow of things on the app especially when searchiing for genuine life partner. And the flow include: Get Matched, chat briefly and plan meetups, meet up and realize he/she have some defects that poses red flag to you. I did quite a lot of snooping which involve signing up for the platform, setting up my profile and swipped the hell out the cards. Now, here is the catch. I met quite a handful of people there. Some who are my padi now. But I noticed this drag with communication with these people which I believe would have been great if rather than text, A video call first would have ease the ground and also set as an examination for the new match",
         solutionTexts: [
            "On getting matched, users setup a virtual meeting to talk face to face before opening the chat for further engagement. This should weed out fishes",
            "Also,it will be great if users can only see people within what they are looking for. That is, if my account is LOOKING FOR LOVE, I should only be seeing other people looking for love. Seeing people who are looking for SHORT TERM FUN is a mid approach",
@@ -400,19 +397,7 @@ export const DesignProjectData = [
             
          ],
         colorPallete: ["#090F22", "#F61067", "#2F80ED", "#27AE60", "#E2B93B", "#EB5757"],
-        researchImgs: [
-            {
-            img: eachtoconnect,
-            name: "Ease To Connect With Students",
-            },
-            {
-            img: StruggleToGetAccommodation,
-            name: "Struggle To Get Accommodation",
-            },
-            {
-            img: frshmanExp,
-            name: "Socializing Experience For Freshman",
-            }],
+       
         snapshotImg: [  onboard, stated, pass, load, success, dash, customize],
     }, //End of a project
     {
@@ -420,24 +405,21 @@ export const DesignProjectData = [
         title: "DWIN Bank Software",
         category: "Freestyle",
         // The Static Title 
-        problemTitle: "The Problem",
-        gettingStartedTitle: "Getting Started",
-        snoopAroundTitle: "Snooping Around",
-        solutionTitle: "Solution",
+        problemTitle: "Introduction",
+        solutionTitle: "Features",
         toolsTitle: "Tools",
         colorPalleteTitle: "Colour Pallete",
-        ResearchAnalysisTitle: "Research Analysis",
         snapshotTitle: "Product Snapshots",
         // The sections Contents
         coverImg: cover,
-        problemText: "Named after the concept of SMOOTH, signifying effortless transactions, Smuut aims to streamline financial interactions. Identity theft, particularly with debit cards, is a pressing concern, with Nigeria experiencing a significant rise in such incidents. According to recent data from the Nigeria Inter-Bank Settlement System (NIBSS), there were over 20,000 reported cases of identity theft involving debit cards in the past year alone. This alarming trend poses a substantial risk to card payments, especially prevalent in online transactions, where users typically opt for card payments. However, the process often involves either storing the card details on the app (a daunting prospect) or tediously entering the lengthy PAN, expiry date, CVV, etc., even for small transactions as low as ₦1,000 (less than $1 USD).\n In-store payments present another challenge. While consumers prefer using cards for purchases at places like local eateries, malls, or convenience stores, issues arise when cards are forgotten at home or network failures occur, leading to declined transactions. Moreover, the inconvenience escalates when transferring funds between different banks, as recipients must wait for credit alerts. Why should users waste time waiting in stores to confirm payments? \nThis inconvenience extends to budding entrepreneurs seeking seamless payment solutions. They seek ways to receive payments without the stress associated with traditional methods. Smuut addresses these pain points, offering a solution for hassle-free financial transactions.",
-        gettingStartedTexts: "Embarking on the design journey of Smuut, I immersed myself in understanding payment behaviors and challenges. Recognizing the need for diverse perspectives, I conducted research across ten states in Nigeria, covering all four cardinal regions. Through conversations with individuals from varied backgrounds, I identified key pain points. Here's a summary of our findings from a sample size of 47 individuals",
-        snoopAroundTexts: "The survey highlighted widespread concerns about debit card identity theft (60%) and frustrations with the cumbersome card payment process (74%). Network reliability issues affected 38% of users, particularly in regions with unreliable connectivity. Additionally, 53% cited inter-bank transfer delays as a major pain point. These findings underscore the need to address these challenges to enhance the user experience and streamline financial transactions.",
+        problemText: "This is a FinTech cum casino software design that tends to integrate mutual savings while still performing the regular banking app functions. Apart from the mutual savings, the software also give the user opportunity to play games staking from their gaming account. This means users have different accounts on DWIN. One for general savings and the other for gaming.",
         solutionTexts: [
-           "Ability to move cart into the mobile app for payment. I.e instead of using your card, you copy code from the cart and load it on the app for payment.",
-            "Ability to generate payment-receiving QR code either for a fixed payment or for a varied payment",
-            "Ability to make payment seemlessly either in-store or online without debit card at all",
-            "Ability to join monthly contribution among peers and collect contribution based on the numbering",
+           "Multiple accounts for savings and gaming",
+			"Investment opportunities where users can contribute towards a project and gain from the profit of th project",
+			"Casino integrated feature that allows users play games and win money",
+			"Mutual contribution which the Yorubas refers to as AJO. This let users join a 10 members group, get a collection number, save money in the groups account and collect the pool contribution based on their collection number.",
+			"Ability to send money from their DWIN account to other DWIN account",
+			"Ability to send money from their DWIN account to other bank's account",
         ],
         toolsIcons: [
             {
@@ -445,16 +427,8 @@ export const DesignProjectData = [
                 name: "Figma"
             },
             {
-                icon: SiNotion,
-                name: "Notion"
-            },
-            {
                 icon: SiAdobephotoshop,
                 name: "Photoshop"
-            },
-            {
-                icon: FaChartPie,
-                name: "Google Form"
             },
             {
                 icon: IoGitNetworkOutline,
@@ -462,19 +436,7 @@ export const DesignProjectData = [
             },
          ],
         colorPallete: ["#090F22", "#F61067", "#2F80ED", "#27AE60", "#E2B93B", "#EB5757"],
-        researchImgs: [
-            {
-            img: eachtoconnect,
-            name: "Ease To Connect With Students",
-            },
-            {
-            img: StruggleToGetAccommodation,
-            name: "Struggle To Get Accommodation",
-            },
-            {
-            img: frshmanExp,
-            name: "Socializing Experience For Freshman",
-            }],
+        
         snapshotImg: [games, bills, home, investment, peer, signup, transfer],
     }, //End of a project
     

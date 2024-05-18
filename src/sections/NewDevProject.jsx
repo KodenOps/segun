@@ -3,7 +3,7 @@ import Navigation from "../Components/Navigation"
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
+const NewDevProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
   // RATE THE DAMN THANG
   // RATE THE DAMN THANG
   // RATE THE DAMN THANG
@@ -17,6 +17,25 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
 
 
   const sendEmail = (e) => {
+    // if (message === "" || name === "") {
+    //   console.log("field cannot be empty")
+    // } else {
+    //   e.preventDefault();
+    //   setemail("osbornefashe@gmail.com")
+    //   emailjs.sendForm('service_sqjdu8d', 'template_j6wvgko', forms.current, '9ih2WuxJGqkctIegS')
+    //     .then((result) => {
+    //       console.log(result.text);
+    //     }, (error) => {
+    //       console.log(error.text);
+    //     });
+    //   toast.success(message + ' sent successfully! 🦄', {
+    //     theme: "dark",
+    //   });
+    //   setname('');
+    //   setemail('');
+    //   setmessage('');
+    //   setsubject('');
+    // }  
     if (message === "" || name === "") {
             console.log("field cannot be empty")
              e.preventDefault();
@@ -49,45 +68,33 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
         <button type="submit" className='md:px-[32px] md:w-auto w-[100px] rounded-sm md:py-[16px] py-[5px] bg-red-500 text-white outline-none  ' onClick={()=> setmodalIsOn(!modalIsOn)}>Close This</button>
       </div>
       {/* InfoBox Container */}
-      <div className=" flex md:flex-row flex-col md:px-[32px] px-[10px] py-[24px] md:mx-[70px]  gap-[10px] h-auto">
+      <div className=" flex md:flex-row flex-col md:items-center  md:px-[32px] px-[10px] py-[24px] md:mx-[70px]  gap-[10px] h-auto">
         {/* the problem section */}
-        <div className="left md:w-[55%] w-[100%] bg-[#13253A] rounded-lg pb-[32px]">
-          <div className="topBox p-r-[10px] text-white md:px-[32px] px-[10px] py-[12px]">
+        <div className="left md:w-[55%] w-[100%]  rounded-lg h-full">
+          {/* introduction */}
+          <div>
+            <div className="topBox w-full mt-2 text-white  px-[32px] py-[24px] bg-[#13253A] rounded-lg">
             <h3 className="title text-[24px] text-[var(--secondary)] font-mono md:text-left text-center">{popupDetails[0].problemTitle}</h3>
             <p className='font-mono'>{popupDetails[0].problemText}
             </p>
-          </div>{ /* End of top box */}
-          {popupDetails[0].gettingStartedTexts ? 
-            <div className="bottomBox p-[12px] bg-[#29394c] w-[92%] mx-[4%] gap-5 md:gap-0 flex md:flex-row flex-col items-top justify-between rounded-lg">
-            {/* left */}
-            <div className="gettingStarted  text-white text-[14px] md:w-[50%] w-full">
-              <h4 className='text-[var(--secondary)] '>{popupDetails[0].gettingStartedTitle}</h4>
-              <p className='font-mono md:w-[90%]'>{popupDetails[0].gettingStartedTexts}</p>
             </div>
-            {/* right */}
-            <div className="gettingStarted  text-white text-[14px] md:w-[50%] w-full">
-              <h4 className='text-[var(--secondary)] '>{popupDetails[0].snoopAroundTitle}</h4>
-              <p className='font-mono'> {popupDetails[0].snoopAroundTexts} </p>
-            </div>
-          </div>
-       
-          : ""
-          }
-           </div>
-        <div className="right md:w-[45%]   text-white h-[100%]">
-          {/* solution box starts here */}
-          <div className="solution  px-[32px] py-[24px] bg-[#13253A] rounded-lg">
-            <h4 className='text-[var(--secondary)] text-center text-[24px] font-mono'>{popupDetails[0].solutionTitle}</h4>
-            <p className='text-[16px] font-mono text-center mb-[16px] md:w-[80%] w-full'>After careful studies into the problems, Here are the solutions to the problem I came up with.</p>
-           
+            { /* Features */}
+            <div className="solution  w-full mt-2 text-white  px-[32px] py-[24px] bg-[#13253A] rounded-lg min-h-full flex-2">
+            <h4 className='text-[var(--secondary)] md:text-left text-center text-[24px] font-mono'>{popupDetails[0].solutionTitle}</h4>
+            <p className='text-[16px] font-mono  mb-[16px] md:w-[80%] w-full md:text-left text-center'>After careful studies into the problems, Here are the solutions to the problem I came up with.</p>
             <ul className='list-disc font-mono'>
                {popupDetails[0].solutionTexts.map((e) => {
               return <li className='font-mono text-[14px] ' key={e}>{e}</li>
             })}
             </ul>
           </div>
+          </div>
+        </div>
+        <div className="right md:w-[45%]   text-white h-[100%]">
+          {/* solution box starts here */}
+          
           {/* colour pallete starts here */}
-          <div className="px-[32px] py-[24px] bg-[#13253A] rounded-lg mt-[10px]">
+          <div className="px-[32px] py-[24px] bg-[#13253A] rounded-lg mt-[10px] flex-1">
             <h4 className='text-[var(--secondary)] text-center text-[24px] font-mono'>{popupDetails[0].colorPalleteTitle}</h4>
             <p className='text-[16px] font-mono text-center mb-[16px]'>Below are the colours used to complete this particular project. The colour HEX codes are added for easy reference</p>
             <div className="colours flex items-center justify-center gap-[5px] flex-wrap">
@@ -100,7 +107,7 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
             </div>
           </div>
           {/* Icon box starts here */}
-          <div className="px-[32px] py-[24px] bg-[#13253A] rounded-lg mt-[10px] h-full">
+          <div className="px-[32px] py-[24px] bg-[#13253A] rounded-lg mt-[10px] h-auto flex-1">
             <h4 className='text-[var(--secondary)] text-center text-[24px] font-mono'>{popupDetails[0].toolsTitle}</h4>
             <p className='text-[16px] font-mono text-center mb-[16px]'>Here are the tools and Languages used in bringing this project into life. You too can try any new one you see here.</p>
             <div className="colours flex items-center justify-center gap-[60px] flex-wrap">
@@ -117,17 +124,17 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
       </div>
       {/* RESEARCH ANALYSIS */}
       {popupDetails[0].researchImgs ? <div className="research px-[32px] py-[24px] bg-[#13253A] rounded-lg md:mx-[100px] mx-[10px]">
-        <h4 className='text-[var(--secondary)]  text-[24px] font-mono md:text-left text-center md:mb-[0px] mb-[32px]'>{popupDetails[0].ResearchAnalysisTitle}</h4>
-        <div className="images w-[100%] flex justify-start items-center gap-[10px] flex-wrap md:mt-0 mt-[24px] text-white md:py-[50px]">
+        <h4 className='text-[var(--secondary)]  text-[24px] font-mono md:text-left text-center md:mb-[20px] mb-[32px]'>{popupDetails[0].ResearchAnalysisTitle}</h4>
+        <div className="images w-[100%] flex justify-start items-center gap-[10px] flex-wrap mt-[24px] text-white md:py-[50px]">
           {popupDetails[0].researchImgs.map((e) => {
-            return <div className='researchbox h-auto  flex-col bg-none mt-[20px] mb-[20px] md:mb-[30px]' key={e.img}>
+            return <div className='researchbox  flex-col bg-none mt-[20px] mb-[100px] md:mb-[30px]' key={e.img}>
               <img
             src={e.img}
               className="img1 w-full md:object-cover object-fit rounded-md "
               alt='snapshot images'
               key={e.name}
               />
-              <p className='mt-[16px]'>{e.name }</p>
+              <p className='md:mt-[16px]'>{e.name }</p>
               </div>
           })}
          
@@ -137,10 +144,10 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
       {/* PROJECT SNAPSHOTS */}
       <div className="research px-[32px] py-[24px] bg-[#13253A] rounded-lg md:mx-[100px] mx-[10px] md:mt-[20px] mt-[20px]">
         <h4 className='text-[var(--secondary)]  text-[24px] font-mono md:text-left text-center'>{popupDetails[0].snapshotTitle}</h4>
-        <p className='text-[16px] font-mono text-center md:text-left mb-[16px] md:w-[40%] my-[16px] text-white'>Here are sample snapshot of the designs. These are just mockups to showcase the final product. Click The Behance Btn to preview more</p>
+        <p className='text-[16px] font-mono text-center md:text-left mb-[16px] md:w-[40%] my-[16px] text-white'>Here are sample snapshot of the designs. These are just mockups to showcase the final product. Click The Live Link button to preview more</p>
         <div className="images w-[100%] flex justify-start items-center gap-[10px] flex-wrap mt-[80px] text-white ">
           {popupDetails[0].snapshotImg.map((e) => {
-            return <div className='researchbox  flex-col bg-none mb-[20px] md:mb-[30px]' key={e}>
+            return <div className='researchbox  flex-col bg-none mb-[50px] md:mb-[100px]' key={e}>
             <img
             src={e}
               className="img1 w-full md:object-cover object-fit rounded-md "
@@ -151,7 +158,7 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
           })}
       
         </div>
-        <button className='px-[32px] md:w-[300px] w-full rounded-md py-[16px] bg-[var(--secondary)] text-[var(--bg)] mt-[24px]'>View Prototype</button>
+        <a href={popupDetails[0].LiveLink} target='_blank' rel='noreferrer'><button className='px-[32px] md:w-[300px] w-full rounded-md py-[16px] bg-[var(--secondary)] text-[var(--bg)] mt-[24px]'>Live Link</button></a>
       </div>
       {/* RATE PROJECT SECTION */}
       <div className="Ratebox px-[32px] py-[24px] bg-[#13253A] rounded-lg md:mx-[100px] mx-[10px] mt-[24px] flex md:justify-between justify-center items-center flex-wrap">
@@ -191,4 +198,4 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
   )
 }
 
-export default NewDesignProject
+export default NewDevProject
