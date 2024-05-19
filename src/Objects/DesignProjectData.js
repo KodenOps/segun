@@ -23,15 +23,24 @@ import img3 from "../assets/smuutv2/img3.png";
 import img4 from "../assets/smuutv2/img4.png";
 import img5 from "../assets/smuutv2/img5.png";
 import img77 from "../assets/smuutv2/img77.png";
+import A from "../assets/Smuut/a.png";
+import B from "../assets/Smuut/b.png";
+import C from "../assets/Smuut/c.png";
+import D from "../assets/Smuut/d.png";
+import E from "../assets/Smuut/e.png";
+import F from "../assets/Smuut/f.png";
+import G from "../assets/Smuut/g.png";
+import H from "../assets/Smuut/h.png";
 //bakeet images
 import coverss from "../assets/bakeets/cover.png";
-import customize from "../assets/bakeets/customize.png";
-import dash from "../assets/bakeets/dash.png";
-import load from "../assets/bakeets/load.png";
-import onboard from "../assets/bakeets/onboard.png";
-import pass from "../assets/bakeets/pass.png";
-import stated from "../assets/bakeets/stated.png";
-import success from "../assets/bakeets/success.png";
+import AA from "../assets/bakeets/AA.png";
+import BB from "../assets/bakeets/BB.png";
+import CC from "../assets/bakeets/CC.png";
+import DD from "../assets/bakeets/DD.png";
+import EE from "../assets/bakeets/EE.png";
+import FF from "../assets/bakeets/FF.png";
+import GG from "../assets/bakeets/GG.png";
+
 //dwin images
 import games from "../assets/dwin/games.png"; 
 import bills from "../assets/dwin/bills.png";
@@ -41,9 +50,19 @@ import peer from "../assets/dwin/peer.png";
 import signup from "../assets/dwin/signup.png";
 import transfer from "../assets/dwin/transfer.png";
 import cover from "../assets/dwin/cover.png";
+//stanbic images
+import b1 from "../assets/stanbic/1b.png"; 
+import b2 from "../assets/stanbic/2b.png"; 
+import b4 from "../assets/stanbic/4b.png"; 
+import b5 from "../assets/stanbic/5b.png"; 
+import b7 from "../assets/stanbic/7b.png"; 
+import b9 from "../assets/stanbic/9b.png"; 
+import b10 from "../assets/stanbic/10b.png"; 
+import b11 from "../assets/stanbic/11b.png"; 
+import b13 from "../assets/stanbic/13b.png"; 
 // icons imports
 import {TbBrandFigma} from "react-icons/tb"
-import {FaChartPie, FaUnsplash, FaWhatsapp} from "react-icons/fa"
+import {FaBrain, FaChartPie, FaUnsplash, FaWhatsapp} from "react-icons/fa"
 import {SiNotion, SiAdobephotoshop, SiGoogle} from "react-icons/si"
 import { IoGitNetworkOutline } from "react-icons/io5"
 
@@ -196,8 +215,8 @@ export const DesignProjectData = [
         // The sections Contents
         coverImg: smuutv2,
         problemText: "Named after the concept of SMOOTH, signifying effortless transactions, Smuut aims to streamline financial interactions. Identity theft, particularly with debit cards, is a pressing concern, with Nigeria experiencing a significant rise in such incidents. According to recent data from the Nigeria Inter-Bank Settlement System (NIBSS), there were over 20,000 reported cases of identity theft involving debit cards in the past year alone. This alarming trend poses a substantial risk to card payments, especially prevalent in online transactions, where users typically opt for card payments. However, the process often involves either storing the card details on the app (a daunting prospect) or tediously entering the lengthy PAN, expiry date, CVV, etc., even for small transactions as low as ₦1,000 (less than $1 USD).\n In-store payments present another challenge. While consumers prefer using cards for purchases at places like local eateries, malls, or convenience stores, issues arise when cards are forgotten at home or network failures occur, leading to declined transactions. Moreover, the inconvenience escalates when transferring funds between different banks, as recipients must wait for credit alerts. Why should users waste time waiting in stores to confirm payments? \nThis inconvenience extends to budding entrepreneurs seeking seamless payment solutions. They seek ways to receive payments without the stress associated with traditional methods. Smuut addresses these pain points, offering a solution for hassle-free financial transactions.",
-        gettingStartedTexts: "Embarking on the design journey of Smuut, I immersed myself in understanding payment behaviors and challenges. Recognizing the need for diverse perspectives, I conducted research across ten states in Nigeria, covering all four cardinal regions. Through conversations with individuals from varied backgrounds, I identified key pain points. Here's a summary of our findings from a sample size of 47 individuals",
-        snoopAroundTexts: "The survey highlighted widespread concerns about debit card identity theft (60%) and frustrations with the cumbersome card payment process (74%). Network reliability issues affected 38% of users, particularly in regions with unreliable connectivity. Additionally, 53% cited inter-bank transfer delays as a major pain point. These findings underscore the need to address these challenges to enhance the user experience and streamline financial transactions.",
+        gettingStartedTexts: "Customer will have to wait inside the store till the merchant receive alert before they could checkout of the store. This means, without the merchant receiving credit alert they won’t be able to checkout from the store. With the increase in debit card frauds in Nigeria, making payment in-store and online (with cards) seems to be a scary thing for customers. How about another means of payment that ensures the safety of the customer’s information. Various online stores limit the type of cards that can be used for checkout making web payment with card limited to few customer.",
+        snoopAroundTexts: "I carried out qualitative research that aims at getting insight about the nature of payments people finds easy, the challenges they faces with the current method of payment, and other little things that sum up to fraustrations for the user of current method of payment. The research receives response from over 30 participants who are active users of various online payments methods such as mobile app, USSD, etc. I took the response from the survey and further crafted out script which I used to interview 10 participant using their choice of virtual meeting platforms (Google meet, Teams call, and Zoom). The survey highlighted widespread concerns about debit card identity theft and frustrations with the cumbersome card payment process. Network reliability issues affected 38% of users, particularly in regions with unreliable connectivity. Additionally, 53% cited inter-bank transfer delays as a major pain point. These findings underscore the need to address these challenges to enhance the user experience and streamline financial transactions.",
         solutionTexts: [
            "Ability to move cart into the mobile app for payment. I.e instead of using your card, you copy code from the cart and load it on the app for payment.",
             "Ability to generate payment-receiving QR code either for a fixed payment or for a varied payment",
@@ -229,17 +248,38 @@ export const DesignProjectData = [
         colorPallete: ["#090F22", "#F61067", "#2F80ED", "#27AE60", "#E2B93B", "#EB5757"],
         researchImgs: [
             {
-            img: eachtoconnect,
-            name: "Ease To Connect With Students",
+            img: A,
+            name: "",
             },
             {
-            img: StruggleToGetAccommodation,
-            name: "Struggle To Get Accommodation",
+            img: B,
+            name: "",
             },
             {
-            img: frshmanExp,
-            name: "Socializing Experience For Freshman",
-            }],
+            img: C,
+            name: "",
+            },
+            {
+            img: D,
+            name: "",
+            },
+            {
+            img: E,
+            name: "",
+            },
+            {
+            img: F,
+            name: "",
+            },
+            {
+            img: G,
+            name: "",
+            },
+            {
+            img: H,
+            name: "",
+            },
+           ],
         snapshotImg: [  img1,img2, img3,  img4, img5, img77],
     }, //End of a project
     
@@ -288,15 +328,64 @@ export const DesignProjectData = [
                 name: "Figjam"
             },
          ],
-        colorPallete: ["#090F22", "#F61067", "#2F80ED", "#27AE60", "#E2B93B", "#EB5757"],
-        snapshotImg: [  onboard, stated, pass, load, success, dash, customize],
+        colorPallete: ["#0B757B", "#C4C4C4", "#2F8A90", "#F24E1E"],
+        snapshotImg: [AA,BB,CC,DD,EE,FF,GG],
     }, //End of a project
-    // END OF BAKEET PROJECT
-    // END OF BAKEET PROJECT
-    // END OF BAKEET PROJECT
-    // END OF BAKEET PROJECT
     {
         id: 5,
+        title: "Stanbic IBTC Internet Banking",
+        category: "Redesign",
+        // The Static Title 
+        problemTitle: "Introduction",
+        gettingStartedTitle: "Issues Found",
+        snoopAroundTitle: "More Issues",
+        solutionTitle: "Proposed Solution",
+        toolsTitle: "Tools",
+        colorPalleteTitle: "Colour Pallete",
+        // ResearchAnalysisTitle: "No Research - This is just a UI Design Project",
+        snapshotTitle: "Product Snapshots",
+        // The sections Contents
+        coverImg: b13,
+        problemText: "Internet Banking is one of the transaction channel for all financial institution. This gives an alternative platform for users to make transactions in place of the regular mobile app. Most times, the organisations often neglect this channel when it comes to building an appealing interface for the users to access. Maybe this is due to the fact that it doesn't record as much traffic as the mobile app. One thing they often neglect is that it is part of the bank's brand. With this alone, it should represent the rich nature of the bank in terms of aesthetics and functionality. The Stanbic Ibank is not left out here. The interface looks terrible compare to the great reputation they have on the street. Talking of white space being thrown around aimlessly, to dull looking colours, down to poor navigations. This doesn't speak well of a multi-national bank. Also, it throws users into the state of Abido shaker",
+        gettingStartedTexts: "The dashboard was looked into and I could notice the following: (a) Boring view: Even though, the main reason might be to improve the load time but this look is so basic. Looks like it was designed by someone that just left a 3 weeks bootcamp. I am not saying it should have rainbows thrown around the screen but rather, let it pop. (b) Non-customers are not included as a prospective user of this platform. What if we allow them open an account so that they can partake in the goodies we have for them on IBANK. (c) Ridiculous empty spaces: white spaces are cool only when it is moderate. How about occupying the empty spaces with quick activities. Maybe we should even use it as a point of contact to receive customer’s complaint. Common, we are a badass seller na.",
+        snoopAroundTexts: "Oversimplified and outdated UI. Excessive whitespace and poor arrangement of components. Side navigation is not properly arranged and users will have to actively search for a feature. Similar icons used for different features. This will confuse users expecially when the navigation is in a collapse mode. Account officer should readily be contact-able. Not only via email. The contact info is secured as customers will only see the contact when they log in and it is not the same for everybody. Users could see their loan debt, but there is no feature on the dashboard showing their eligibility and a prompt to further sell that service to them. Finally, the idea behind a dashboard is for the user to have an overview of their account and transactions. How about being more ready to help them track their transactions by showing them a chat of what they spend their money on.",
+        solutionTexts: [
+            "The login field remain the same, just that the fields should maintain adequate spacing. Let them breathe! Dont suffocate them.",
+            "Quick link should take some of the white space. These 4 actions are carefully selected because they don’t need to login to get them done. For instance, report issue button can be link to a web form that is link to Remedy. OnSubmit, it can log a remedy ticket and be assigned to a custodian who will treat it.",
+            "The right - hand side of the login: This space is just to advertise some new things in the bank.The white space is to house the flyer / design.So ensure to get a perfect and consistent dimension to avoid the design being distorted.",
+            "For the mobile view of the login, Only the left hand side is displayed. Obviously, the size will be tweaked.", 
+            "CTA button placement: the placement (left-small) of the button makes users on mobile strain their finger while trying to reach it. Especially the right-handed users who make 90% of our total users",
+            "Upselling other services to non-customer: Apart from allowing our own customers to login, how about suggesting opening a new account to our non-customers. They can then come back and set up internet banking later",
+            "Quick action buttons to solve a non-login problem: There are some quick things users want to do that doesn’t really require login in or having an internet banking account. For instance, users can request to hotlist their debit card after being stolen/robbed",
+            "For the Dashboard:",
+            "While still maintaining the same look for the components (the scope is not to create new face but to improve), can the css be improved to make it look more attractive. This involves using vibrant colours. Another improvement will be to have a dark and light mode to be more inclusive for users with colour issues. Another solution to this outdated and poor UI is to make the account information look like what they can reckon with. Let it look like an ATM card with their info on it.",
+            "For the excessive white space, the arrangement of the components can be tweaked to make it more compact. Also, the components should be grouped based on the type of information they are displaying. Account info (balance, number, account officers, etc) should be within the same proximity.",
+            "To cater for the remaining space, new components can be added that still enhance the quality of information we want to show our users.This involves: Loan eligibility/ request components, Spending summary,",
+            " Account officers contact is added",
+            "A new component is added to show the users their eligibility and a CTA to book a loan",
+            "A new component show their spending summary has been added" 
+        ],
+        toolsIcons: [
+            {
+                icon: TbBrandFigma,
+                name: "Figma"
+            },
+            {
+                icon: FaBrain,
+                name: "User Centric Thoughts"
+            },
+         ],
+        colorPallete: ["#0033A1", "#5188FF", "#1E1E1E", "#0D0D0D", "#75FF53", "#FF5959"],
+        snapshotImg: [b1, b2, b4, b5, b7, b9, b10, b11],
+        link: "https://www.figma.com/design/zwUzqkOwcd43Dl98DJDYHP/SBIBTC-IBANK-REVAMP?node-id=203%3A3930&t=2nxb4D0KrNqwAbR8-1",
+        ctaName: "View Figma Solution"
+    }, //End of a project
+    // END OF STANBIC PROJECT
+    // END OF STANBIC PROJECT
+    // END OF STANBIC PROJECT
+    // END OF STANBIC PROJECT
+    {
+        id: 6,
         title: "Jumia App - Modification",
         category: "Re-imagined",
         // The Static Title 
@@ -355,14 +444,14 @@ export const DesignProjectData = [
             img: frshmanExp,
             name: "Socializing Experience For Freshman",
             }],
-        snapshotImg: [  onboard, stated, pass, load, success, dash, customize],
+        snapshotImg: [  ],
     }, //End of a project
     // END OF JUMIA PROJECT
     // END OF JUMIA PROJECT
     // END OF JUMIA PROJECT
     // END OF JUMIA PROJECT
     {
-        id: 6,
+        id: 7,
         title: "Tinder - Modification",
         category: "Re-imagined",
         // The Static Title 
@@ -396,12 +485,12 @@ export const DesignProjectData = [
             },
             
          ],
-        colorPallete: ["#090F22", "#F61067", "#2F80ED", "#27AE60", "#E2B93B", "#EB5757"],
+        colorPallete: ["#FE5048", "#FD2C72", "#2694C8", "#EAA943", "#31FFC7", "#A34FDB"],
        
-        snapshotImg: [  onboard, stated, pass, load, success, dash, customize],
+        snapshotImg: [  ],
     }, //End of a project
     {
-        id: 7,
+        id: 8,
         title: "DWIN Bank Software",
         category: "Freestyle",
         // The Static Title 

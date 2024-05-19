@@ -269,7 +269,7 @@ export const DevProjectData = [
                 name: "React Toastify"
             },
          ],
-        colorPallete: ["#008148", "#f77f00", "#0E131F", "#C6C6C6", "#5B5A5A", "#303030"],
+        colorPallete: ["#0e1c36", "#29e7cd", "#1799632a", "#223968", "#ef4444"],
         
         snapshotImg: [segun],
          LiveLink: "https://iqueez.vercel.app/",

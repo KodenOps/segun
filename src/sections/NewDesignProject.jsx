@@ -140,7 +140,7 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
         <p className='text-[16px] font-mono text-center md:text-left mb-[16px] md:w-[40%] my-[16px] text-white'>Here are sample snapshot of the designs. These are just mockups to showcase the final product. Click The Behance Btn to preview more</p>
         <div className="images w-[100%] flex justify-start items-center gap-[10px] flex-wrap mt-[80px] text-white ">
           {popupDetails[0].snapshotImg.map((e) => {
-            return <div className='researchbox  flex-col bg-none mb-[20px] md:mb-[30px]' key={e}>
+            return <div className='researchbox  flex-col bg-none mb-[20px] md:mb-[10px]' key={e}>
             <img
             src={e}
               className="img1 w-full md:object-cover object-fit rounded-md "
@@ -151,7 +151,7 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
           })}
       
         </div>
-        <button className='px-[32px] md:w-[300px] w-full rounded-md py-[16px] bg-[var(--secondary)] text-[var(--bg)] mt-[24px]'>View Prototype</button>
+        <a href={popupDetails[0].link} className='px-[32px] md:w-[300px] w-full rounded-md py-[16px] bg-[var(--secondary)] text-[var(--bg)] mt-[24px]'>{popupDetails[0].ctaName }</a>
       </div>
       {/* RATE PROJECT SECTION */}
       <div className="Ratebox px-[32px] py-[24px] bg-[#13253A] rounded-lg md:mx-[100px] mx-[10px] mt-[24px] flex md:justify-between justify-center items-center flex-wrap">
