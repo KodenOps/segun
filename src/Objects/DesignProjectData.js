@@ -53,13 +53,27 @@ import cover from "../assets/dwin/cover.png";
 //stanbic images
 import b1 from "../assets/stanbic/1b.png"; 
 import b2 from "../assets/stanbic/2b.png"; 
+import b3 from "../assets/stanbic/3b.png"; 
 import b4 from "../assets/stanbic/4b.png"; 
 import b5 from "../assets/stanbic/5b.png"; 
+import b6 from "../assets/stanbic/6b.png"; 
 import b7 from "../assets/stanbic/7b.png"; 
+import b8 from "../assets/stanbic/8b.png"; 
 import b9 from "../assets/stanbic/9b.png"; 
 import b10 from "../assets/stanbic/10b.png"; 
 import b11 from "../assets/stanbic/11b.png"; 
+import b12 from "../assets/stanbic/12b.png"; 
 import b13 from "../assets/stanbic/13b.png"; 
+// Jumia images
+import jumia_cover from "../assets/Jumia/jum_cover.png"
+import jum_1 from "../assets/Jumia/jum_1.png"
+import jum_2 from "../assets/Jumia/jum_2.png"
+import jum_3 from "../assets/Jumia/jum_3.png"
+import jum_4 from "../assets/Jumia/jum_4.png"
+import jum_5 from "../assets/Jumia/jum_5.png"
+// Tinder
+import Tind_cover from "../assets/tinder/tind_cover.png"
+import Tind_tobe from "../assets/tinder/tind_tobe.png"
 // icons imports
 import {TbBrandFigma} from "react-icons/tb"
 import {FaBrain, FaChartPie, FaUnsplash, FaWhatsapp} from "react-icons/fa"
@@ -376,7 +390,7 @@ export const DesignProjectData = [
             },
          ],
         colorPallete: ["#0033A1", "#5188FF", "#1E1E1E", "#0D0D0D", "#75FF53", "#FF5959"],
-        snapshotImg: [b1, b2, b4, b5, b7, b9, b10, b11],
+        snapshotImg: [b1, b2,b3, b4, b5, b6, b7, b8, b9, b10, b11, b12],
         link: "https://www.figma.com/design/zwUzqkOwcd43Dl98DJDYHP/SBIBTC-IBANK-REVAMP?node-id=203%3A3930&t=2nxb4D0KrNqwAbR8-1",
         ctaName: "View Figma Solution"
     }, //End of a project
@@ -398,7 +412,7 @@ export const DesignProjectData = [
         ResearchAnalysisTitle: "Research Analysis",
         snapshotTitle: "Product Snapshots",
         // The sections Contents
-        coverImg: coverss,
+        coverImg: jumia_cover,
         problemText: "One issue I feel we always ignore when creating ecommerce solutions is that we always focus on a specific type of users while ignoring the other type of users. You will agree with me that for an Ecommerce application like Jumia, there are two categories of Users. (a) the buyers (b) the seller. For a weird reason, when we think about this product, we always prioritize the buyers over the sellers. The payment, the user flows, the UX, the icon placement, the business behind the application are often times solely focused on the buyer. For instance, what happen when the product you picked and paid for on Jumia happen to be unavailable again after payment? The order will be canceled and refund will be sent to the buyer. No avenue for the Seller to upsell or suggest alternatives. Like I said, one sided focus. Another issue I found about Jumia and most Ecommerce applications (I sampled Jumia, Konga, Amazon, Ebay) is that you can't edit order (add to the quantity or change a variety like colour/size) after payment even before the shipping from the seller is done. What if there is a controlled means to be able to edit order in a way that won't affect the price. Let say change colour for products that have fixed price for all colours. This way, nothing is changing in terms of payments. Even if payment will be tampered, it should be limited to any change that cause INCREASE to price ONLY. Any change that leads to reduction in price will be at the loss of the buyer or will be sent to a wallet for future purchase",
         gettingStartedTexts: "Sampled over 14 known vendors on Jumia to know what they feel about the app in relation to my own detected issues. Also, I asked around both online and offline and I could get responses from 20 regular users of Jumia, 5 from 1-3 times users of Jumia and quite a number of them said something in relations to my concerns",
         snoopAroundTexts: "Of the 14 vendors contacted, 6 people talked aout how frustrating it could be for them not to be able to upsell to customers and most of the issues faced from their end always leads to order cancellation and a bad rating for them afterward. How about them having a means to communicate to buyers even if it is going to be controlled. They believe customers are not always fixated on a particular choice. An alternative could be accepted by the user",
@@ -430,21 +444,10 @@ export const DesignProjectData = [
                 name: "Google Form"
             },
          ],
-        colorPallete: ["#090F22", "#F61067", "#2F80ED", "#27AE60", "#E2B93B", "#EB5757"],
-        researchImgs: [
-            {
-            img: eachtoconnect,
-            name: "Ease To Connect With Students",
-            },
-            {
-            img: StruggleToGetAccommodation,
-            name: "Struggle To Get Accommodation",
-            },
-            {
-            img: frshmanExp,
-            name: "Socializing Experience For Freshman",
-            }],
-        snapshotImg: [  ],
+        colorPallete: ["#F68B1E", "#006B8D", "#D9D9D9", "#F6521E", "#6DBD28", "#1C1C1C"],
+        snapshotImg: [jum_1, jum_2, jum_3, jum_4, jum_5],
+        link: "https://www.figma.com/design/l0MLKwoJNbUXwCwfP6MW5O/Untitled?node-id=2%3A2&t=KqdD4UglV5P1hcD2-1",
+        ctaName: "View Figma File"
     }, //End of a project
     // END OF JUMIA PROJECT
     // END OF JUMIA PROJECT
@@ -464,7 +467,7 @@ export const DesignProjectData = [
         // ResearchAnalysisTitle: "Research Analysis",
         snapshotTitle: "Product Snapshots",
         // The sections Contents
-        coverImg: coverss,
+        coverImg: Tind_cover,
         problemText: "The dating market is a jungle if you will agree with me. It's even worse when you involve social media or dating sites to foster your search. There are lots of issues such as long distance, mismatch of identity (more like what I ordered for vs what I get situation), Catfishing, time wasters, Hookup girls posing as a wife materials, etc. These and many more are what those who are genuinely searching for match online faces. Tinder is not excluded from this shit. In fact, it happens to be a major stakeholder of these issues. One of the major concern on this platform is time-waster, and catfishes. It will be great if users can checkmate this fishes before spending much time interacting with them. This project is just a short one to showcase the solution I'm suggesting to combat some of the issues I noticed on the Tinder app. To start with this project, I have to sign-up on the platform as a regular user. Let say I had to go and search actively for love. One issue I first noticed is the number of fake accounts posing as women. Another thing I noticed is the flow of things on the app especially when searchiing for genuine life partner. And the flow include: Get Matched, chat briefly and plan meetups, meet up and realize he/she have some defects that poses red flag to you. I did quite a lot of snooping which involve signing up for the platform, setting up my profile and swipped the hell out the cards. Now, here is the catch. I met quite a handful of people there. Some who are my padi now. But I noticed this drag with communication with these people which I believe would have been great if rather than text, A video call first would have ease the ground and also set as an examination for the new match",
         solutionTexts: [
            "On getting matched, users setup a virtual meeting to talk face to face before opening the chat for further engagement. This should weed out fishes",
@@ -487,7 +490,7 @@ export const DesignProjectData = [
          ],
         colorPallete: ["#FE5048", "#FD2C72", "#2694C8", "#EAA943", "#31FFC7", "#A34FDB"],
        
-        snapshotImg: [  ],
+        snapshotImg: [ Tind_tobe ],
     }, //End of a project
     {
         id: 8,
@@ -524,9 +527,11 @@ export const DesignProjectData = [
                 name: "Figjam"
             },
          ],
-        colorPallete: ["#090F22", "#F61067", "#2F80ED", "#27AE60", "#E2B93B", "#EB5757"],
+        colorPallete: ["#E9D949", "#03121B", "#092433", "#1A8C9B"],
         
         snapshotImg: [games, bills, home, investment, peer, signup, transfer],
+        link: "https://www.figma.com/proto/ZxZjvukwLGf3uYwYKzWAAZ/DWIN-BANK?node-id=65-22&t=gnxov9aYWXmX5TaR-1&scaling=scale-down&page-id=1%3A2&starting-point-node-id=65%3A22",
+        ctaName: "View Prototype"
     }, //End of a project
     
 ]

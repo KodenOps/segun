@@ -12,6 +12,8 @@ import queez from "../assets/SEGUN/queez.png";
 import sdiva1 from "../assets/superdiva1.png";
 import sdiva2 from "../assets/superdiva2.png";
 
+// ecobazar images
+import Eco_cover from "../assets/ecobazar/eco_cover.png"
 // icons imports
 import { FaCss3, FaReact} from "react-icons/fa"
 
@@ -138,7 +140,7 @@ export const DevProjectData = [
                 name: "Photoshop"
             },
          ],
-        colorPallete: ["#008148", "#f77f00", "#0E131F", "#C6C6C6", "#5B5A5A", "#303030"],
+        colorPallete: ["#3c1642", "#f2994a", "#00072d"],
         
         snapshotImg: [sdiva2],
          LiveLink: "https://superdiva-v-2.vercel.app",
@@ -202,7 +204,7 @@ export const DevProjectData = [
         colorPalleteTitle: "Colour Pallete",
         snapshotTitle: "Product Snapshots",
         // The sections Contents
-        coverImg: segun,
+        coverImg: Eco_cover,
         problemText: "This is a project I worked on from a figma file I saw on Figma community. The page was designed by [name of designer | link] and was freely accessible on figma community. I develop the page with NextJS and Tailwind CSS while learning how to use Typescript for the first time. Nothing much to see here. This is just a static page with little interactions such as hover effect, click events and small state management with useState hook. NOTE: I do not claim the design as mine. All i did was to code someone's design with ReactJS.",
 
         solutionTexts: [

@@ -140,7 +140,7 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
         <p className='text-[16px] font-mono text-center md:text-left mb-[16px] md:w-[40%] my-[16px] text-white'>Here are sample snapshot of the designs. These are just mockups to showcase the final product. Click The Behance Btn to preview more</p>
         <div className="images w-[100%] flex justify-start items-center gap-[10px] flex-wrap mt-[80px] text-white ">
           {popupDetails[0].snapshotImg.map((e) => {
-            return <div className='researchbox  flex-col bg-none mb-[20px] md:mb-[10px]' key={e}>
+            return <div className='researchbox  flex-col bg-none mb-[20px] md:mb-[50px] lg:mb-[100px]' key={e}>
             <img
             src={e}
               className="img1 w-full md:object-cover object-fit rounded-md "
