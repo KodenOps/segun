@@ -15,6 +15,13 @@ import Luta_reset from "../assets/luta/reset.png";
 import Luta_splash from "../assets/luta/Splash.png";
 import Luta_usages from "../assets/luta/Usage.png";
 import Luta_user from "../assets/luta/User.png";
+import luta_1 from "../assets/luta/luta_1.png";
+import luta_2 from "../assets/luta/luta_2.png";
+import luta_3 from "../assets/luta/luta_3.png";
+import luta_4 from "../assets/luta/luta_4.png";
+import luta_5 from "../assets/luta/luta_5.png";
+import luta_6 from "../assets/luta/luta_6.png";
+import luta_7 from "../assets/luta/luta_7.png";
 // SMUUT V2 IMAGES
 import smuutv2 from "../assets/smuutv2.png";
 import img1 from "../assets/smuutv2/img1.png";
@@ -71,12 +78,12 @@ import jum_2 from "../assets/Jumia/jum_2.png"
 import jum_3 from "../assets/Jumia/jum_3.png"
 import jum_4 from "../assets/Jumia/jum_4.png"
 import jum_5 from "../assets/Jumia/jum_5.png"
-// Tinder
-import Tind_cover from "../assets/tinder/tind_cover.png"
-import Tind_tobe from "../assets/tinder/tind_tobe.png"
+// // Tinder
+// import Tind_cover from "../assets/tinder/tind_cover.png"
+// import Tind_tobe from "../assets/tinder/tind_tobe.png"
 // icons imports
 import {TbBrandFigma} from "react-icons/tb"
-import {FaBrain, FaChartPie, FaUnsplash, FaWhatsapp} from "react-icons/fa"
+import {FaBrain, FaChartPie, FaWhatsapp} from "react-icons/fa"
 import {SiNotion, SiAdobephotoshop, SiGoogle} from "react-icons/si"
 import { IoGitNetworkOutline } from "react-icons/io5"
 
@@ -207,7 +214,7 @@ export const DesignProjectData = [
             img: frshmanExp,
             name: "Socializing Experience For Freshman",
             }],
-        snapshotImg: [ Luta_splash, Luta_onboardings,Luta_feedbacks, Luta_message,  Luta_register, Luta_reset,Luta_usages, Luta_user],
+        snapshotImg: [ Luta_splash, Luta_onboardings,Luta_feedbacks, Luta_message,  Luta_register, Luta_reset,Luta_usages, Luta_user, luta_1, luta_2, luta_3, luta_4, luta_5, luta_6, luta_7],
     }, //End of a project
     // END OF LUTA PROJECT
     // END OF LUTA PROJECT
@@ -391,7 +398,7 @@ export const DesignProjectData = [
          ],
         colorPallete: ["#0033A1", "#5188FF", "#1E1E1E", "#0D0D0D", "#75FF53", "#FF5959"],
         snapshotImg: [b1, b2,b3, b4, b5, b6, b7, b8, b9, b10, b11, b12],
-        link: "https://www.figma.com/design/zwUzqkOwcd43Dl98DJDYHP/SBIBTC-IBANK-REVAMP?node-id=203%3A3930&t=2nxb4D0KrNqwAbR8-1",
+        link: "https://www.figma.com/design/zwUzqkOwcd43Dl98DJDYHP/SBIBTC-IBANK-REVAMP?node-id=114%3A1948&t=mSHbfke6QarQi6f9-1",
         ctaName: "View Figma Solution"
     }, //End of a project
     // END OF STANBIC PROJECT
@@ -453,49 +460,49 @@ export const DesignProjectData = [
     // END OF JUMIA PROJECT
     // END OF JUMIA PROJECT
     // END OF JUMIA PROJECT
-    {
-        id: 7,
-        title: "Tinder - Modification",
-        category: "Re-imagined",
-        // The Static Title 
-        problemTitle: "Short Introduction",
-        // gettingStartedTitle: "Getting Started",
-        // snoopAroundTitle: "Snooping Around",
-        solutionTitle: "New Features",
-        toolsTitle: "Tools",
-        colorPalleteTitle: "Colour Pallete",
-        // ResearchAnalysisTitle: "Research Analysis",
-        snapshotTitle: "Product Snapshots",
-        // The sections Contents
-        coverImg: Tind_cover,
-        problemText: "The dating market is a jungle if you will agree with me. It's even worse when you involve social media or dating sites to foster your search. There are lots of issues such as long distance, mismatch of identity (more like what I ordered for vs what I get situation), Catfishing, time wasters, Hookup girls posing as a wife materials, etc. These and many more are what those who are genuinely searching for match online faces. Tinder is not excluded from this shit. In fact, it happens to be a major stakeholder of these issues. One of the major concern on this platform is time-waster, and catfishes. It will be great if users can checkmate this fishes before spending much time interacting with them. This project is just a short one to showcase the solution I'm suggesting to combat some of the issues I noticed on the Tinder app. To start with this project, I have to sign-up on the platform as a regular user. Let say I had to go and search actively for love. One issue I first noticed is the number of fake accounts posing as women. Another thing I noticed is the flow of things on the app especially when searchiing for genuine life partner. And the flow include: Get Matched, chat briefly and plan meetups, meet up and realize he/she have some defects that poses red flag to you. I did quite a lot of snooping which involve signing up for the platform, setting up my profile and swipped the hell out the cards. Now, here is the catch. I met quite a handful of people there. Some who are my padi now. But I noticed this drag with communication with these people which I believe would have been great if rather than text, A video call first would have ease the ground and also set as an examination for the new match",
-        solutionTexts: [
-           "On getting matched, users setup a virtual meeting to talk face to face before opening the chat for further engagement. This should weed out fishes",
-           "Also,it will be great if users can only see people within what they are looking for. That is, if my account is LOOKING FOR LOVE, I should only be seeing other people looking for love. Seeing people who are looking for SHORT TERM FUN is a mid approach",
-        ],
-        toolsIcons: [
-            {
-                icon: TbBrandFigma,
-                name: "Figma"
-            },
-            {
-                icon: FaUnsplash,
-                name: "Unsplash"
-            },
-            {
-                icon: SiAdobephotoshop,
-                name: "Photoshop"
-            },
+    // {
+    //     id: 7,
+    //     title: "Tinder - Modification",
+    //     category: "Re-imagined",
+    //     // The Static Title 
+    //     problemTitle: "Short Introduction",
+    //     // gettingStartedTitle: "Getting Started",
+    //     // snoopAroundTitle: "Snooping Around",
+    //     solutionTitle: "New Features",
+    //     toolsTitle: "Tools",
+    //     colorPalleteTitle: "Colour Pallete",
+    //     // ResearchAnalysisTitle: "Research Analysis",
+    //     snapshotTitle: "Product Snapshots",
+    //     // The sections Contents
+    //     coverImg: Tind_cover,
+    //     problemText: "The dating market is a jungle if you will agree with me. It's even worse when you involve social media or dating sites to foster your search. There are lots of issues such as long distance, mismatch of identity (more like what I ordered for vs what I get situation), Catfishing, time wasters, Hookup girls posing as a wife materials, etc. These and many more are what those who are genuinely searching for match online faces. Tinder is not excluded from this shit. In fact, it happens to be a major stakeholder of these issues. One of the major concern on this platform is time-waster, and catfishes. It will be great if users can checkmate this fishes before spending much time interacting with them. This project is just a short one to showcase the solution I'm suggesting to combat some of the issues I noticed on the Tinder app. To start with this project, I have to sign-up on the platform as a regular user. Let say I had to go and search actively for love. One issue I first noticed is the number of fake accounts posing as women. Another thing I noticed is the flow of things on the app especially when searchiing for genuine life partner. And the flow include: Get Matched, chat briefly and plan meetups, meet up and realize he/she have some defects that poses red flag to you. I did quite a lot of snooping which involve signing up for the platform, setting up my profile and swipped the hell out the cards. Now, here is the catch. I met quite a handful of people there. Some who are my padi now. But I noticed this drag with communication with these people which I believe would have been great if rather than text, A video call first would have ease the ground and also set as an examination for the new match",
+    //     solutionTexts: [
+    //        "On getting matched, users setup a virtual meeting to talk face to face before opening the chat for further engagement. This should weed out fishes",
+    //        "Also,it will be great if users can only see people within what they are looking for. That is, if my account is LOOKING FOR LOVE, I should only be seeing other people looking for love. Seeing people who are looking for SHORT TERM FUN is a mid approach",
+    //     ],
+    //     toolsIcons: [
+    //         {
+    //             icon: TbBrandFigma,
+    //             name: "Figma"
+    //         },
+    //         {
+    //             icon: FaUnsplash,
+    //             name: "Unsplash"
+    //         },
+    //         {
+    //             icon: SiAdobephotoshop,
+    //             name: "Photoshop"
+    //         },
             
-         ],
-        colorPallete: ["#FE5048", "#FD2C72", "#2694C8", "#EAA943", "#31FFC7", "#A34FDB"],
+    //      ],
+    //     colorPallete: ["#FE5048", "#FD2C72", "#2694C8", "#EAA943", "#31FFC7", "#A34FDB"],
        
-        snapshotImg: [ Tind_tobe ],
-    }, //End of a project
+    //     snapshotImg: [ Tind_tobe ],
+    // }, //End of a project
     {
         id: 8,
         title: "DWIN Bank Software",
-        category: "Freestyle",
+        category: "UI Design",
         // The Static Title 
         problemTitle: "Introduction",
         solutionTitle: "Features",

@@ -151,7 +151,7 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
           })}
       
         </div>
-        <a href={popupDetails[0].link} className='px-[32px] md:w-[300px] w-full rounded-md py-[16px] bg-[var(--secondary)] text-[var(--bg)] mt-[24px]'>{popupDetails[0].ctaName }</a>
+        <a href={popupDetails[0].link} target='_blank' rel="noreferrer" className='px-[32px] md:w-[300px] w-full rounded-md py-[16px] bg-[var(--secondary)] text-[var(--bg)] mt-[24px]'>{popupDetails[0].ctaName }</a>
       </div>
       {/* RATE PROJECT SECTION */}
       <div className="Ratebox px-[32px] py-[24px] bg-[#13253A] rounded-lg md:mx-[100px] mx-[10px] mt-[24px] flex md:justify-between justify-center items-center flex-wrap">
