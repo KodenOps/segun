@@ -25,7 +25,7 @@ const DesignProjects = ({modalIsOn, setmodalIsOn}) => {
 							setpopupDetails([e]);
 							setmodalIsOn(!modalIsOn);
 						}}>
-						<div className="w-[130px] h-[130px] md:w-[250px] md:h-[250px] shadow-lg rounded-[16px] overflow-hidden relative">
+						<div className="w-[130px] h-[130px] md:w-[250px] md:h-[250px] shadow-lg rounded-[8px] overflow-hidden relative">
 							<img
 								src={e.coverImg}
 								alt=""
