@@ -9,8 +9,10 @@ import harbode6 from "../assets/harbode/6.png";
 import segun from "../assets/SEGUN/Segun.PNG";
 import queez from "../assets/SEGUN/queez.png";
 // superdiva
-import sdiva1 from "../assets/superdiva1.png";
-import sdiva2 from "../assets/superdiva2.png";
+import superdiva from "../assets/superdiva/superdiva.png";
+import superdivaa from "../assets/superdiva/superdivaa.png";
+import superdivaaa2 from "../assets/superdiva/superdivaaa2.png";
+import superdivaa2 from "../assets/superdiva/superdivaa2.png";
 
 // ecobazar images
 import Eco_cover from "../assets/ecobazar/eco_cover.png"
@@ -74,7 +76,7 @@ export const DevProjectData = [
         colorPalleteTitle: "Colour Pallete",
         snapshotTitle: "Product Snapshots",
         // The sections Contents
-        coverImg: sdiva1,
+        coverImg: superdiva,
         problemText: "SuperDiva is a fashion e-commerce store for women of varios age and sizes. This is my first attempt towards creating multiple pages using ReactJS. To be honest, i focuses on different concept such as state management with Redux, API integration using Flutterwave payment gateway, etc. This project handles states using Redux Toolkit. This project is my major first project using redux. Even the entire project is for me to familiarize with Redux and state management. A V.2 will be added that prioritize aesthetic with the impeccable state management. It also integrate Toast alert to notify users for an item already in the cart. On the app, you have the Ability to Preview products before adding to cart",
 
         solutionTexts: [
@@ -103,7 +105,7 @@ export const DevProjectData = [
          ],
         colorPallete: ["#008148", "#f77f00", "#0E131F", "#C6C6C6", "#5B5A5A", "#303030"],
         
-        snapshotImg: [sdiva1],
+        snapshotImg: [superdiva, superdivaa],
          LiveLink: "https://superdiva.vercel.app"
     }, //End of a project
     {
@@ -117,7 +119,7 @@ export const DevProjectData = [
         colorPalleteTitle: "Colour Pallete",
         snapshotTitle: "Product Snapshots",
         // The sections Contents
-        coverImg: sdiva2,
+        coverImg: superdivaa2,
         problemText: "SuperDiva is a fashion e-commerce store for women of varios age and sizes. Following the V1 success, here is a V2 that prioritize aesthetics. Although, this is still static, interactions will be added very soon that will allow previewing the products, adding product to cart, marking product as favorite, modify cart and finally, checkout and emailing order information to the user and me (the seller)",
 
         solutionTexts: [
@@ -142,7 +144,7 @@ export const DevProjectData = [
          ],
         colorPallete: ["#3c1642", "#f2994a", "#00072d"],
         
-        snapshotImg: [sdiva2],
+        snapshotImg: [superdivaa2, superdivaaa2],
          LiveLink: "https://superdiva-v-2.vercel.app",
     }, //End of a project
     {
