@@ -5,6 +5,7 @@ import harbode3 from "../assets/harbode/3.png";
 import harbode4 from "../assets/harbode/4.png";
 import harbode5 from "../assets/harbode/5.png";
 import harbode6 from "../assets/harbode/6.png";
+// import harbodew from "../assets/harbode/harbodew.png";
 // LUTA IMAGES
 import luta_cover from "../assets/luta/cover.png";
 import Luta_feedbacks from "../assets/luta/feedback.png";
@@ -22,6 +23,7 @@ import luta_4 from "../assets/luta/luta_4.png";
 import luta_5 from "../assets/luta/luta_5.png";
 import luta_6 from "../assets/luta/luta_6.png";
 import luta_7 from "../assets/luta/luta_7.png";
+import lutaaaa from "../assets/luta/lutaaaa.png";
 // SMUUT V2 IMAGES
 import smuutv2 from "../assets/smuutv2.png";
 import img1 from "../assets/smuutv2/img1.png";
@@ -147,6 +149,8 @@ export const DesignProjectData = [
             name: "Socializing Experience For Freshman",
             }],
         snapshotImg: [harbode2, harbode3, harbode4, harbode5, harbode6],
+        link: "https://www.figma.com/design/dctHaHfpAnd5xiX2nGEXoI/HARBODE?node-id=0%3A1&t=tRXU5wQBDdgFq2R4-1",
+        ctaName: "View Figma File"
     }, 
     // END OF HARBODE PROJECT
     // END OF HARBODE PROJECT
@@ -214,7 +218,9 @@ export const DesignProjectData = [
             img: frshmanExp,
             name: "Socializing Experience For Freshman",
             }],
-        snapshotImg: [ Luta_splash, Luta_onboardings,Luta_feedbacks, Luta_message,  Luta_register, Luta_reset,Luta_usages, Luta_user, luta_1, luta_2, luta_3, luta_4, luta_5, luta_6, luta_7],
+        snapshotImg: [Luta_splash, Luta_onboardings, Luta_feedbacks, Luta_message, Luta_register, Luta_reset, Luta_usages, Luta_user, luta_1, luta_2, luta_3, luta_4, luta_5, luta_6, luta_7, lutaaaa],
+        link: "https://www.figma.com/design/z6E96Jsabb5nQr5cZhYqiH/Untitled?node-id=0%3A1&t=AyXHld2VrSpE5TkF-1",
+        ctaName: "View Figma File"
     }, //End of a project
     // END OF LUTA PROJECT
     // END OF LUTA PROJECT

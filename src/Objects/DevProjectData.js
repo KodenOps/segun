@@ -6,16 +6,27 @@ import harbode3 from "../assets/harbode/3.png";
 import harbode4 from "../assets/harbode/4.png";
 import harbode5 from "../assets/harbode/5.png";
 import harbode6 from "../assets/harbode/6.png";
+// Segun
 import segun from "../assets/SEGUN/Segun.PNG";
-import queez from "../assets/SEGUN/queez.png";
+import segun1 from "../assets/SEGUN/segun1.png";
+import segun2 from "../assets/SEGUN/segun2.png";
+
 // superdiva
 import superdiva from "../assets/superdiva/superdiva.png";
 import superdivaa from "../assets/superdiva/superdivaa.png";
 import superdivaaa2 from "../assets/superdiva/superdivaaa2.png";
 import superdivaa2 from "../assets/superdiva/superdivaa2.png";
-
+// iqueez 
+import iqueez1 from "../assets/iqueez/iqueez1.png"
+import iqueez2 from "../assets/iqueez/iqueez2.png"
+import iqueez3 from "../assets/iqueez/iqueez3.png"
+import queez from "../assets/SEGUN/queez.png";
 // ecobazar images
 import Eco_cover from "../assets/ecobazar/eco_cover.png"
+import ecobazar1 from "../assets/ecobazar/ecobazar1.png"
+import ecobazar2 from "../assets/ecobazar/ecobazar2.png"
+import ecobazar3 from "../assets/ecobazar/ecobazar3.png"
+import ecobazar4 from "../assets/ecobazar/ecobazar4.png"
 // icons imports
 import { FaCss3, FaReact} from "react-icons/fa"
 
@@ -103,7 +114,7 @@ export const DevProjectData = [
                 name: "Redux"
             },
          ],
-        colorPallete: ["#008148", "#f77f00", "#0E131F", "#C6C6C6", "#5B5A5A", "#303030"],
+        colorPallete: ["#3c1642", "#f2994a", "#00072d"],
         
         snapshotImg: [superdiva, superdivaa],
          LiveLink: "https://superdiva.vercel.app"
@@ -190,9 +201,9 @@ export const DevProjectData = [
                 name: "Photoshop"
             },
          ],
-        colorPallete: ["#008148", "#f77f00", "#0E131F", "#C6C6C6", "#5B5A5A", "#303030"],
+        colorPallete: ["#0D2D5C", "#0E5E6F", "#B8F56A", "#EF4444"],
         
-        snapshotImg: [queez],
+        snapshotImg: [iqueez1, iqueez2, iqueez3],
          LiveLink: "https://iqueez.vercel.app/",
     }, //End of a project
     {
@@ -228,12 +239,12 @@ export const DevProjectData = [
          ],
         colorPallete: ["#008148", "#f77f00", "#0E131F", "#C6C6C6", "#5B5A5A", "#303030"],
         
-        snapshotImg: [segun],
+        snapshotImg: [ecobazar1, ecobazar2, ecobazar3, ecobazar4],
          LiveLink: "https://ecobazarr.vercel.app/",
     }, //End of a project
     {
         id: 6,
-        title: "portfolio Website",
+        title: "Portfolio Website",
         category: "WebDev",
         // The Static Title 
         problemTitle: "Introduction",
@@ -275,7 +286,7 @@ export const DevProjectData = [
          ],
         colorPallete: ["#0e1c36", "#29e7cd", "#1799632a", "#223968", "#ef4444"],
         
-        snapshotImg: [segun],
+        snapshotImg: [segun1, segun2],
          LiveLink: "https://iqueez.vercel.app/",
     }, //End of a project
     
