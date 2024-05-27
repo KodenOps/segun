@@ -48,16 +48,22 @@ MeToggle()
 						</h3>
 						<div className="topfact flex  justify-center gap-[32px] flex-wrap   mb-[32px] ">
 							<Box
-								top="2 Years"
-								bottom="Solo Experience"
+								top="Twitter/X"
+								bottom="@fadiya_pelumi"
+								link="https://x.com/fadiya_pelumi"
+							/>
+							<Box
+								top="LinkedIn"
+								bottom="Click to view"
+								link="https://ng.linkedin.com/in/femi-fadiya-segun-pelumi"
 							/>
 							<Box
 								top="Self Taught"
 								bottom="Dev/Designer"
 							/>
 							<Box
-								top="Current Role"
-								bottom="Reliability Engineer"
+								top="Favorite Channel"
+								bottom="Freecodecamp/DevEd"
 							/>
 							<Box
 								top="Availability"
@@ -67,11 +73,7 @@ MeToggle()
 								top="Twitter"
 								bottom="@frontend_bros"
 							/> */}
-							<Box
-								top="LinkedIn"
-								bottom="Click to view"
-								link="https://ng.linkedin.com/in/femi-fadiya-segun-pelumi"
-							/>
+							
 						</div>
 					</div>
 				</div>

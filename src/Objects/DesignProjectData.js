@@ -5,6 +5,11 @@ import harbode3 from "../assets/harbode/3.png";
 import harbode4 from "../assets/harbode/4.png";
 import harbode5 from "../assets/harbode/5.png";
 import harbode6 from "../assets/harbode/6.png";
+import harb from "../assets/harbode/harb.png";
+import harb2 from "../assets/harbode/harb2.png";
+import harb20 from "../assets/harbode/harb20.png";
+import harb3 from "../assets/harbode/harb3.png";
+import harb4 from "../assets/harbode/harb4.png";
 // import harbodew from "../assets/harbode/harbodew.png";
 // LUTA IMAGES
 import luta_cover from "../assets/luta/cover.png";
@@ -24,6 +29,8 @@ import luta_5 from "../assets/luta/luta_5.png";
 import luta_6 from "../assets/luta/luta_6.png";
 import luta_7 from "../assets/luta/luta_7.png";
 import lutaaaa from "../assets/luta/lutaaaa.png";
+import luta_chart from "../assets/luta/luta_chart.png";
+import luta_chart1 from "../assets/luta/luta_chart1.png";
 // SMUUT V2 IMAGES
 import smuutv2 from "../assets/smuutv2.png";
 import img1 from "../assets/smuutv2/img1.png";
@@ -135,20 +142,20 @@ export const DesignProjectData = [
             },
          ],
         colorPallete: ["#008148", "#f77f00", "#0E131F", "#C6C6C6", "#5B5A5A", "#303030"],
-        researchImgs: [
-            {
-            img: eachtoconnect,
-            name: "Ease To Connect With Students",
-            },
-            {
-            img: StruggleToGetAccommodation,
-            name: "Struggle To Get Accommodation",
-            },
-            {
-            img: frshmanExp,
-            name: "Socializing Experience For Freshman",
-            }],
-        snapshotImg: [harbode2, harbode3, harbode4, harbode5, harbode6],
+        // researchImgs: [
+        //     {
+        //     img: eachtoconnect,
+        //     name: "Ease To Connect With Students",
+        //     },
+        //     {
+        //     img: StruggleToGetAccommodation,
+        //     name: "Struggle To Get Accommodation",
+        //     },
+        //     {
+        //     img: frshmanExp,
+        //     name: "Socializing Experience For Freshman",
+        //     }],
+        snapshotImg: [harbode2, harbode3, harbode4, harbode5, harbode6, harb, harb2, harb20, harb3, harb4],
         link: "https://www.figma.com/design/dctHaHfpAnd5xiX2nGEXoI/HARBODE?node-id=0%3A1&t=tRXU5wQBDdgFq2R4-1",
         ctaName: "View Figma File"
     }, 
@@ -217,7 +224,16 @@ export const DesignProjectData = [
             {
             img: frshmanExp,
             name: "Socializing Experience For Freshman",
-            }],
+            },
+            {
+            img: luta_chart,
+            name: "Segregated User Flow diagram for student accommodation feature (Pending Launching)",
+            },
+            {
+            img: luta_chart1,
+            name: "Segregated User Flow diagram for student Chatroom feature",
+            },
+        ],
         snapshotImg: [Luta_splash, Luta_onboardings, Luta_feedbacks, Luta_message, Luta_register, Luta_reset, Luta_usages, Luta_user, luta_1, luta_2, luta_3, luta_4, luta_5, luta_6, luta_7, lutaaaa],
         link: "https://www.figma.com/design/z6E96Jsabb5nQr5cZhYqiH/Untitled?node-id=0%3A1&t=AyXHld2VrSpE5TkF-1",
         ctaName: "View Figma File"

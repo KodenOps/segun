@@ -118,7 +118,7 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
       {/* RESEARCH ANALYSIS */}
       {popupDetails[0].researchImgs ? <div className="research px-[32px] py-[24px] bg-[#13253A] rounded-lg md:mx-[100px] mx-[10px]">
         <h4 className='text-[var(--secondary)]  text-[24px] font-mono md:text-left text-center md:mb-[0px] mb-[32px]'>{popupDetails[0].ResearchAnalysisTitle}</h4>
-        <div className="images w-[100%] flex justify-start items-center gap-[10px] flex-wrap md:mt-0 mt-[24px] text-white md:py-[50px]">
+        <div className="images w-[100%] flex justify-start items-start gap-[10px] flex-wrap md:mt-0 mt-[24px] text-white md:py-[50px]">
           {popupDetails[0].researchImgs.map((e) => {
             return <div className='researchbox h-auto  flex-col bg-none mt-[20px] mb-[20px] md:mb-[30px]' key={e.img}>
               <img
@@ -127,7 +127,7 @@ const NewDesignProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
               alt='snapshot images'
               key={e.name}
               />
-              <p className='mt-[16px]'>{e.name }</p>
+              <p className='mt-[16px] text-center md:text-md text-sm'>{e.name }</p>
               </div>
           })}
          
