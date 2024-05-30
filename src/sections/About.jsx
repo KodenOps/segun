@@ -63,7 +63,7 @@ MeToggle()
 							/>
 							<Box
 								top="Favorite Channel"
-								bottom="Freecodecamp/DevEd"
+								bottom="Freecodecamp"
 							/>
 							<Box
 								top="Availability"
