@@ -136,7 +136,7 @@ export const ProjectDevArray = [
 		id: 4,
 		title: 'portfolio Website',
 		techs: ['ReactJs', 'EmailJS', 'Tailwind', 'AOS'],
-		link1: 'https://segun-fadiya.vercel.app/',
+		link1: 'https://segun-fadiya1.vercel.app/',
 		link2: 'https://github.com/KodeNinj/segun',
 		mainImg: segun,
 		otherImgs: [],
