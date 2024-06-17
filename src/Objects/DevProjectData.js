@@ -28,7 +28,7 @@ import ecobazar2 from '../assets/ecobazar/ecobazar2.png';
 import ecobazar3 from '../assets/ecobazar/ecobazar3.png';
 import ecobazar4 from '../assets/ecobazar/ecobazar4.png';
 // icons imports
-import { FaCss3, FaReact } from 'react-icons/fa';
+import { FaCss3, FaDatabase, FaReact } from 'react-icons/fa';
 
 import { MdEmail } from 'react-icons/md';
 import { SiIcon, SiRedux, SiTailwindcss } from 'react-icons/si';
@@ -130,7 +130,7 @@ export const DevProjectData = [
 	}, //End of a project
 	{
 		id: 3,
-		title: 'SuperDiva V-2 Website',
+		title: 'SuperDiva V2 Website',
 		category: 'WebDev',
 		// The Static Title
 		problemTitle: 'Introduction',
@@ -152,11 +152,19 @@ export const DevProjectData = [
 		toolsIcons: [
 			{
 				icon: FaReact,
-				name: 'ReactJS',
+				name: 'NextJS',
 			},
 			{
 				icon: SiTailwindcss,
 				name: 'Tailwind CSS',
+			},
+			{
+				icon: FaDatabase,
+				name: 'LocalStorage API',
+			},
+			{
+				icon: TbApiApp,
+				name: 'Context API',
 			},
 			{
 				icon: DiPhotoshop,
