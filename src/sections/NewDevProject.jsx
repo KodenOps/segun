@@ -161,7 +161,7 @@ const NewDevProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
 							Here are the tools and Languages used in bringing this project
 							into life. You too can try any new one you see here.
 						</p>
-						<div className='colours flex items-center justify-center gap-[60px] flex-wrap'>
+						<div className='colours flex items-center justify-center gap-[40px] flex-wrap'>
 							{popupDetails[0].toolsIcons.map((Item) => {
 								let ItemIcon = Item.icon;
 								// console.log(f)
