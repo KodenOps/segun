@@ -27,11 +27,19 @@ import ecobazar1 from '../assets/ecobazar/ecobazar1.png';
 import ecobazar2 from '../assets/ecobazar/ecobazar2.png';
 import ecobazar3 from '../assets/ecobazar/ecobazar3.png';
 import ecobazar4 from '../assets/ecobazar/ecobazar4.png';
+
+// manee
+import manee from '../assets/manee/manee-cover.png';
+import airtime from '../assets/manee/airtime.png';
+import dash from '../assets/manee/dash.png';
+import login from '../assets/manee/login.png';
+import transfer from '../assets/manee/transfer.png';
+import login_light from '../assets/manee/login-light.png';
 // icons imports
-import { FaCss3, FaDatabase, FaReact } from 'react-icons/fa';
+import { FaCss3, FaDatabase, FaIcons, FaReact } from 'react-icons/fa';
 
 import { MdEmail } from 'react-icons/md';
-import { SiIcon, SiRedux, SiTailwindcss } from 'react-icons/si';
+import { SiIcon, SiRedux, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import { DiPhotoshop } from 'react-icons/di';
 export const DevProjectData = [
 	{
@@ -175,6 +183,50 @@ export const DevProjectData = [
 
 		snapshotImg: [superdivaa2, superdivaaa2],
 		LiveLink: 'https://superdiva-v2.vercel.app',
+	}, //End of a project
+	{
+		id: 7,
+		title: 'Manee Internet Banking - Work In Progress',
+		category: 'WIP',
+		// The Static Title
+		problemTitle: 'Introduction',
+		solutionTitle: 'Features',
+		toolsTitle: 'Tools',
+		colorPalleteTitle: 'Colour Pallete',
+		snapshotTitle: 'Product Snapshots',
+		// The sections Contents
+		coverImg: manee,
+		problemText:
+			'SuperDiva is a fashion e-commerce store for women of varios age and sizes. Following the V1 success, here is a V2 that prioritize aesthetics. Although, this is still static, interactions will be added very soon that will allow previewing the products, adding product to cart, marking product as favorite, modify cart and finally, checkout and emailing order information to the user and me (the seller)',
+
+		solutionTexts: [
+			'Ability to Preview products before adding to cart will be added soon',
+			'Ability to save item as favorite will be added soon',
+			'Ability to add item to cart and view will be added soon',
+			'Ability to checkout using test Flutterwave API will be added soon',
+		],
+		toolsIcons: [
+			{
+				icon: FaReact,
+				name: 'NextJS',
+			},
+			{
+				icon: SiTailwindcss,
+				name: 'Tailwind CSS',
+			},
+			{
+				icon: SiTypescript,
+				name: 'Typescript',
+			},
+			{
+				icon: FaIcons,
+				name: 'React Icons',
+			},
+		],
+		colorPallete: ['#4469B4', '#182236', '#699AFD'],
+
+		snapshotImg: [login, login_light, dash, airtime, transfer],
+		LiveLink: 'https://manee-amber.vercel.app/',
 	}, //End of a project
 	{
 		id: 4,
