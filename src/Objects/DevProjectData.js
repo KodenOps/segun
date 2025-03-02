@@ -196,7 +196,8 @@ export const DevProjectData = [
 		snapshotTitle: 'Product Snapshots',
 		// The sections Contents
 		coverImg: manee,
-		problemText: 'Nothing is here yet. Check back later',
+		problemText:
+			"Manee is a conceptual internet banking platform where users can perform basic credit and debit transactions. From Basic Inter/Intra-bank transfers, to airtime and data purchase. This bore out of my idea that internet banking for banks shouldn't be boring and bland. I believe the rich feeling of mobile apps can also be extended to the internet platform even if the traffic on being experience on it is always significantly lower than that of Mobile app. Most times, this internet banking (or variations) are where the businesses carry out their bulk transactions, the UI surely needs to be better than what i've noticed on most bank Ibank ",
 
 		solutionTexts: ['Nothing is here yet'],
 		toolsIcons: [
@@ -217,7 +218,7 @@ export const DevProjectData = [
 				name: 'React Icons',
 			},
 		],
-		colorPallete: ['#4469B4', '#182236', '#699AFD'],
+		colorPallete: ['#4469B4', '#182236', '#699AFD', '#1799632a', '#29e7cd'],
 
 		snapshotImg: [login, login_light, dash, airtime, transfer],
 		LiveLink: 'https://manee-amber.vercel.app/',
