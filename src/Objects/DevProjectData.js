@@ -196,15 +196,9 @@ export const DevProjectData = [
 		snapshotTitle: 'Product Snapshots',
 		// The sections Contents
 		coverImg: manee,
-		problemText:
-			'SuperDiva is a fashion e-commerce store for women of varios age and sizes. Following the V1 success, here is a V2 that prioritize aesthetics. Although, this is still static, interactions will be added very soon that will allow previewing the products, adding product to cart, marking product as favorite, modify cart and finally, checkout and emailing order information to the user and me (the seller)',
+		problemText: 'Nothing is here yet. Check back later',
 
-		solutionTexts: [
-			'Ability to Preview products before adding to cart will be added soon',
-			'Ability to save item as favorite will be added soon',
-			'Ability to add item to cart and view will be added soon',
-			'Ability to checkout using test Flutterwave API will be added soon',
-		],
+		solutionTexts: ['Nothing is here yet'],
 		toolsIcons: [
 			{
 				icon: FaReact,
