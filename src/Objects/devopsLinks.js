@@ -55,4 +55,11 @@ export const devopsblogs = [
 		link: 'https://github.com/KodenOps/devops_challenge/tree/main/Day%202',
 		source: 'GitHub',
 	},
+	{
+		id: 7,
+		title: 'Bank USSD mock Using Bash Scripting',
+		image: 'https://media.geeksforgeeks.org/wp-content/uploads/cli_example.png',
+		link: 'https://github.com/KodenOps/BankUssd',
+		source: 'GitHub',
+	},
 ];
