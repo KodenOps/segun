@@ -285,7 +285,7 @@ export const DevProjectData = [
 		],
 
 		snapshotImg: [ecobazar1, ecobazar2, ecobazar3, ecobazar4],
-		LiveLink: 'https://ecobazarr.vercel.app/',
+		LiveLink: 'https://ecobazarrr.vercel.app/',
 	}, //End of a project
 	{
 		id: 6,
