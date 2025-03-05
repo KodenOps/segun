@@ -11,29 +11,10 @@ const NewDevProject = ({ popupDetails, modalIsOn, setmodalIsOn }) => {
 	const [email, setemail] = useState('');
 	const [message, setmessage] = useState('');
 	const [subject, setsubject] = useState('');
-	const [Rate, setRate] = useState('');
+	const [Rate, setRate] = useState('Blehhhhhhhh');
 	const forms = useRef();
 
 	const sendEmail = (e) => {
-		// if (message === "" || name === "") {
-		//   console.log("field cannot be empty")
-		// } else {
-		//   e.preventDefault();
-		//   setemail("osbornefashe@gmail.com")
-		//   emailjs.sendForm('service_sqjdu8d', 'template_j6wvgko', forms.current, '9ih2WuxJGqkctIegS')
-		//     .then((result) => {
-		//       console.log(result.text);
-		//     }, (error) => {
-		//       console.log(error.text);
-		//     });
-		//   toast.success(message + ' sent successfully! 🦄', {
-		//     theme: "dark",
-		//   });
-		//   setname('');
-		//   setemail('');
-		//   setmessage('');
-		//   setsubject('');
-		// }
 		if (message === '' || name === '') {
 			alert('field cannot be empty');
 			e.preventDefault();
