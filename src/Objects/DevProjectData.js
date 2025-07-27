@@ -27,10 +27,28 @@ import ecobazar1 from '../assets/ecobazar/ecobazar1.png';
 import ecobazar2 from '../assets/ecobazar/ecobazar2.png';
 import ecobazar3 from '../assets/ecobazar/ecobazar3.png';
 import ecobazar4 from '../assets/ecobazar/ecobazar4.png';
-// icons imports
-import { FaCss3, FaDatabase, FaReact } from 'react-icons/fa';
 
-import { MdEmail } from 'react-icons/md';
+// Fleetz
+import img1 from '../assets/fleetz/img-1.png';
+import img2 from '../assets/fleetz/img-2.png';
+import img9 from '../assets/fleetz/img-10.png';
+import img4 from '../assets/fleetz/img-11.png';
+import img5 from '../assets/fleetz/img-12.png';
+import img7 from '../assets/fleetz/img-7.png';
+import img8 from '../assets/fleetz/img-8.png';
+import fleetz from '../assets/fleetz/fleetz.png';
+// icons imports
+import {
+	FaChartArea,
+	FaCss3,
+	FaDashcube,
+	FaDatabase,
+	FaReact,
+	FaThemeco,
+	FaThemeisle,
+} from 'react-icons/fa';
+
+import { MdDashboard, MdEmail } from 'react-icons/md';
 import { SiIcon, SiRedux, SiTailwindcss } from 'react-icons/si';
 import { DiPhotoshop } from 'react-icons/di';
 export const DevProjectData = [
@@ -314,5 +332,58 @@ export const DevProjectData = [
 
 		snapshotImg: [segun1, segun2],
 		LiveLink: 'https://iqueez.vercel.app/',
+	}, //End of a project
+	{
+		id: 7,
+		title: 'Fleetz.Admin Dashboard',
+		category: 'WebDev',
+		// The Static Title
+		problemTitle: 'Introduction',
+		solutionTitle: 'Features',
+		toolsTitle: 'Tools',
+		colorPalleteTitle: 'Colour Pallete',
+		snapshotTitle: 'Product Snapshots',
+		// The sections Contents
+		coverImg: fleetz,
+		problemText:
+			'This is an exploratory project to create an enterprise fleet management solution where all managerial and management of the entire fleet can be controlled. This is just a one page project yet. Other functionalities will be added with time.',
+
+		solutionTexts: [
+			'Ability to view basic fleet metrics like number of total busses, monthly trips, revenue and expenses total',
+			'Ability to see revenue flow chart by month in the current year',
+			'Ability to view the percentage satisfaction based on the rating from th rider for each bus',
+			'Bus location and the ability to contact driver at any time',
+			'Top 3 Driver for the Month',
+		],
+		toolsIcons: [
+			{
+				icon: FaReact,
+				name: 'NextJs',
+			},
+			{
+				icon: SiTailwindcss,
+				name: 'Tailwind CSS',
+			},
+			{
+				icon: TbApiApp,
+				name: 'MapBox API',
+			},
+			{
+				icon: SiIcon,
+				name: 'React-Icons',
+			},
+			{
+				icon: MdDashboard,
+				name: 'Next Themes',
+			},
+			{
+				icon: FaChartArea,
+				name: 'ReChart ',
+			},
+		],
+		colorPallete: ['#51cedf', '#262626', '#1a1a1a', '#054c56', '#a0a0a0'],
+
+		snapshotImg: [img1, img2, img9, img4, img5, img7, img8, fleetz],
+		LiveLink: 'https://fleetz-two.vercel.app/',
 	}, //End of a project
 ];
