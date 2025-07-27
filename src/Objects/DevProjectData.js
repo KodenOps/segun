@@ -37,21 +37,81 @@ import img5 from '../assets/fleetz/img-12.png';
 import img7 from '../assets/fleetz/img-7.png';
 import img8 from '../assets/fleetz/img-8.png';
 import fleetz from '../assets/fleetz/fleetz.png';
+
+// manee
+import manee from '../assets/manee/manee-cover.png';
+import airtime from '../assets/manee/airtime.png';
+import dash from '../assets/manee/dash.png';
+import login from '../assets/manee/login.png';
+import transfer from '../assets/manee/transfer.png';
+import login_light from '../assets/manee/login-light.png';
 // icons imports
 import {
 	FaChartArea,
 	FaCss3,
 	FaDashcube,
-	FaDatabase,
+	FaDatabase, FaIcons,
 	FaReact,
 	FaThemeco,
 	FaThemeisle,
 } from 'react-icons/fa';
 
-import { MdDashboard, MdEmail } from 'react-icons/md';
-import { SiIcon, SiRedux, SiTailwindcss } from 'react-icons/si';
+import { MdDashboard, MdEmail, MdNotificationImportant } from 'react-icons/md';
+import { SiIcon, SiRedux, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import { DiPhotoshop } from 'react-icons/di';
 export const DevProjectData = [
+	{
+		id: 7,
+		title: 'Manee Internet Banking - (WIP)',
+		category: 'WIP',
+		// The Static Title
+		problemTitle: 'Introduction',
+		solutionTitle: 'Features',
+		toolsTitle: 'Tools',
+		colorPalleteTitle: 'Colour Pallete',
+		snapshotTitle: 'Product Snapshots',
+		// The sections Contents
+		coverImg: manee,
+		problemText:
+			"Manee is a conceptual internet banking platform where users can perform basic credit and debit transactions. From Basic Inter/Intra-bank transfers, to airtime and data purchase. This bore out of my idea that internet banking for banks shouldn't be boring and bland. I believe the rich feeling of mobile apps can also be extended to the internet platform even if the traffic on being experience on it is always significantly lower than that of Mobile app. Most times, this internet banking (or variations) are where the businesses carry out their bulk transactions, the UI surely needs to be better than what i've noticed on most bank Ibank ",
+
+		solutionTexts: [
+			'Ability to view Balance',
+			'Ability to view transaction history',
+			'ability to make inter/intra-bank transfers',
+			'airtime purchase',
+		],
+		toolsIcons: [
+			{
+				icon: FaReact,
+				name: 'NextJS',
+			},
+			{
+				icon: SiTailwindcss,
+				name: 'Tailwind CSS',
+			},
+			{
+				icon: SiTypescript,
+				name: 'Typescript',
+			},
+			{
+				icon: FaIcons,
+				name: 'React Icons',
+			},
+			{
+				icon: MdEmail,
+				name: 'EmailJS',
+			},
+			{
+				icon: MdNotificationImportant,
+				name: 'React-Toastify',
+			},
+		],
+		colorPallete: ['#4469B4', '#182236', '#699AFD', '#1799632a', '#29e7cd'],
+
+		snapshotImg: [login, login_light, dash, airtime, transfer],
+		LiveLink: 'https://manee-amber.vercel.app/',
+	}, //End of a project
 	{
 		id: 1,
 		title: 'Harbode Website',
@@ -102,50 +162,7 @@ export const DevProjectData = [
 		snapshotImg: [harbode2, harbode3, harbode4, harbode5, harbode6],
 		LiveLink: 'https://harbode.vercel.app',
 	}, //End of a project
-	{
-		id: 2,
-		title: 'SuperDiva V-1 Website',
-		category: 'WebDev',
-		// The Static Title
-		problemTitle: 'Introduction',
-		solutionTitle: 'Features',
-		toolsTitle: 'Tools',
-		colorPalleteTitle: 'Colour Pallete',
-		snapshotTitle: 'Product Snapshots',
-		// The sections Contents
-		coverImg: superdiva,
-		problemText:
-			'SuperDiva is a fashion e-commerce store for women of varios age and sizes. This is my first attempt towards creating multiple pages using ReactJS. To be honest, i focuses on different concept such as state management with Redux, API integration using Flutterwave payment gateway, etc. This project handles states using Redux Toolkit. This project is my major first project using redux. Even the entire project is for me to familiarize with Redux and state management. A V.2 will be added that prioritize aesthetic with the impeccable state management. It also integrate Toast alert to notify users for an item already in the cart. On the app, you have the Ability to Preview products before adding to cart',
 
-		solutionTexts: [
-			'Ability to Preview products before adding to cart',
-			'Ability to save item as favorite',
-			'Ability to add item to cart and view',
-			'Ability to checkout using test Flutterwave API',
-		],
-		toolsIcons: [
-			{
-				icon: FaReact,
-				name: 'ReactJS',
-			},
-			{
-				icon: FaCss3,
-				name: 'Pure CSS',
-			},
-			{
-				icon: TbApiApp,
-				name: 'Flutterwave API',
-			},
-			{
-				icon: SiRedux,
-				name: 'Redux',
-			},
-		],
-		colorPallete: ['#3c1642', '#f2994a', '#00072d'],
-
-		snapshotImg: [superdiva, superdivaa],
-		LiveLink: 'https://superdiva.vercel.app',
-	}, //End of a project
 	{
 		id: 3,
 		title: 'SuperDiva V2 Website',
@@ -166,6 +183,8 @@ export const DevProjectData = [
 			'Ability to save item as favorite will be added soon',
 			'Ability to add item to cart and view will be added soon',
 			'Ability to checkout using test Flutterwave API will be added soon',
+			'Integration of APM using the Elastic End-User Monitoring plugin',
+			'Dockerized for easy deployment across different environment',
 		],
 		toolsIcons: [
 			{
@@ -194,6 +213,7 @@ export const DevProjectData = [
 		snapshotImg: [superdivaa2, superdivaaa2],
 		LiveLink: 'https://superdiva-v2.vercel.app',
 	}, //End of a project
+
 	{
 		id: 4,
 		title: 'iQueez - Quiz App',
@@ -283,7 +303,7 @@ export const DevProjectData = [
 		],
 
 		snapshotImg: [ecobazar1, ecobazar2, ecobazar3, ecobazar4],
-		LiveLink: 'https://ecobazarr.vercel.app/',
+		LiveLink: 'https://ecobazarrr.vercel.app/',
 	}, //End of a project
 	{
 		id: 6,
@@ -385,5 +405,49 @@ export const DevProjectData = [
 
 		snapshotImg: [img1, img2, img9, img4, img5, img7, img8, fleetz],
 		LiveLink: 'https://fleetz-two.vercel.app/',
+	}, //End of a project
+	{
+		id: 2,
+		title: 'SuperDiva V-1 Website',
+		category: 'WebDev',
+		// The Static Title
+		problemTitle: 'Introduction',
+		solutionTitle: 'Features',
+		toolsTitle: 'Tools',
+		colorPalleteTitle: 'Colour Pallete',
+		snapshotTitle: 'Product Snapshots',
+		// The sections Contents
+		coverImg: superdiva,
+		problemText:
+			'SuperDiva is a fashion e-commerce store for women of varios age and sizes. This is my first attempt towards creating multiple pages using ReactJS. To be honest, i focuses on different concept such as state management with Redux, API integration using Flutterwave payment gateway, etc. This project handles states using Redux Toolkit. This project is my major first project using redux. Even the entire project is for me to familiarize with Redux and state management. A V.2 will be added that prioritize aesthetic with the impeccable state management. It also integrate Toast alert to notify users for an item already in the cart. On the app, you have the Ability to Preview products before adding to cart',
+
+		solutionTexts: [
+			'Ability to Preview products before adding to cart',
+			'Ability to save item as favorite',
+			'Ability to add item to cart and view',
+			'Ability to checkout using test Flutterwave API',
+		],
+		toolsIcons: [
+			{
+				icon: FaReact,
+				name: 'ReactJS',
+			},
+			{
+				icon: FaCss3,
+				name: 'Pure CSS',
+			},
+			{
+				icon: TbApiApp,
+				name: 'Flutterwave API',
+			},
+			{
+				icon: SiRedux,
+				name: 'Redux',
+			},
+		],
+		colorPallete: ['#3c1642', '#f2994a', '#00072d'],
+
+		snapshotImg: [superdiva, superdivaa],
+		LiveLink: 'https://superdiva.vercel.app',
 	}, //End of a project
 ];
