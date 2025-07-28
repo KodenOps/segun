@@ -50,19 +50,26 @@ import {
 	FaChartArea,
 	FaCss3,
 	FaDashcube,
-	FaDatabase, FaIcons,
+	FaDatabase,
+	FaIcons,
 	FaReact,
 	FaThemeco,
 	FaThemeisle,
 } from 'react-icons/fa';
 
 import { MdDashboard, MdEmail, MdNotificationImportant } from 'react-icons/md';
-import { SiIcon, SiRedux, SiTailwindcss, SiTypescript } from 'react-icons/si';
-import { DiPhotoshop } from 'react-icons/di';
+import {
+	SiIcon,
+	SiRedux,
+	SiSupabase,
+	SiTailwindcss,
+	SiTypescript,
+} from 'react-icons/si';
+import { DiPhotoshop, DiPostgresql } from 'react-icons/di';
 export const DevProjectData = [
 	{
 		id: 7,
-		title: 'Manee Internet Banking - (WIP)',
+		title: 'Manee Personal Finance - (WIP)',
 		category: 'WIP',
 		// The Static Title
 		problemTitle: 'Introduction',
@@ -70,16 +77,16 @@ export const DevProjectData = [
 		toolsTitle: 'Tools',
 		colorPalleteTitle: 'Colour Pallete',
 		snapshotTitle: 'Product Snapshots',
-		// The sections Contents
+		// The sections Contentss
 		coverImg: manee,
 		problemText:
-			"Manee is a conceptual internet banking platform where users can perform basic credit and debit transactions. From Basic Inter/Intra-bank transfers, to airtime and data purchase. This bore out of my idea that internet banking for banks shouldn't be boring and bland. I believe the rich feeling of mobile apps can also be extended to the internet platform even if the traffic on being experience on it is always significantly lower than that of Mobile app. Most times, this internet banking (or variations) are where the businesses carry out their bulk transactions, the UI surely needs to be better than what i've noticed on most bank Ibank ",
+			'Manee is a budget planning web app that helps users manage their finance well. This project is a personal project that is built on NextJs. Some features has been added, although this is still work in progress. More features will be added to this project such as loan management, more financial charts to keep track of our monthly finance YTD, and hopefully, integration with the new Bank Open Banking API to further track inflow and outflow across all users bank accounts. ',
 
 		solutionTexts: [
-			'Ability to view Balance',
-			'Ability to view transaction history',
-			'ability to make inter/intra-bank transfers',
-			'airtime purchase',
+			'Ability to input your total monthly inflow',
+			'Ability to set and update monthly goal with chart to track the progress',
+			'Ability to set threshold and keep track of monthly spend',
+			'Ability to visualize monthly expenses (WIP)',
 		],
 		toolsIcons: [
 			{
@@ -99,17 +106,21 @@ export const DevProjectData = [
 				name: 'React Icons',
 			},
 			{
-				icon: MdEmail,
-				name: 'EmailJS',
+				icon: DiPostgresql,
+				name: 'PostGreSQL',
 			},
 			{
-				icon: MdNotificationImportant,
-				name: 'React-Toastify',
+				icon: SiSupabase,
+				name: 'Supabase Authentication',
+			},
+			{
+				icon: FaChartArea,
+				name: 'Recharts Library',
 			},
 		],
 		colorPallete: ['#4469B4', '#182236', '#699AFD', '#1799632a', '#29e7cd'],
 
-		snapshotImg: [login, login_light, dash, airtime, transfer],
+		snapshotImg: [login, login_light],
 		LiveLink: 'https://manee-amber.vercel.app/',
 	}, //End of a project
 	{
